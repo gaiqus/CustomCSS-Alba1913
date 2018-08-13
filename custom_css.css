@@ -1,0 +1,1967 @@
+
+
+/*Quantity + add to bag final Tweaks + Apple Pay Cockroaches - Added by Kuba Rychlicki*/
+
+.qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added .screen-reader-text {display:none!important;}
+
+.qode-single-product-summary .summary .clearfix .cart {width: 100% !important;display: table !important;margin:5px 0px;}
+
+.qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added 
+{display: table-cell!important;width: auto !important;margin: 0px 0px 10px 0px;padding: 0px 0px 4px 0px;}
+
+.qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added .quantity__label 
+{display: inline-block;margin:0px;padding:0px;}
+
+.qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added .quantity__button-holder.quantity__button-holder--minus {display:inline-block;}
+
+.qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added .qty
+{display: table-cell!important;float: unset;border-bottom: solid 1px #EEE !important;padding-bottom: 5px;}/*was inline*/
+
+.qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added .quantity__button-holder.quantity__button-holder--plus {display: inline-block !important;}
+
+.qode-single-product-summary .summary .clearfix .cart #wc-stripe-payment-request-wrapper 
+{clear:unset!important; padding-top:unset!important;display: table-cell;width: 100%!important;height: 40px!important;padding-bottom: 0px;margin-bottom: 0px;float: left;}
+
+.qode-single-product-summary .summary .clearfix .cart #wc-stripe-payment-request-button 
+{width: auto;padding-top:20px;}
+
+.qode-single-product-summary .summary .clearfix .cart #wc-stripe-payment-request-button-separator 
+{text-align: center;display: none!important;vertical-align: middle;padding:0px;margin: 0px;min-width: auto;}
+
+.qode-single-product-summary .summary .clearfix .cart .single_add_to_cart_button.button.alt.qbutton 
+{display: table-cell!important;float:right!important;border-radius: 5px;max-height: 44px!important;padding: 3px 20px;
+}
+
+.woocommerce-checkout #payment .payment_method_stripe label[for=payment_method_stripe] {display: inline-flex!important;padding-left: 0px!important;}
+
+#wc-stripe-payment-request-button-separator {display:none!important;}
+
+/*Added by Bartosz Gajewski - footer with company contact text display fixed*/
+.footer_top .column4.footer_col4 .column_inner .widget{
+  float: none!important;
+}
+/*.column1.footer_col1 .widget.widget_text_icl{
+  padding-top: 21px!important;
+}*/
+.column4.footer_col4{
+  margin-top: 50px;
+}
+
+/*Added by Bartosz Gajewski - mobile menu hamburger display fixed*/
+.mobile_menu_button span{
+  font-size: 30px!important;
+}
+
+
+/*Added by Kuba Rychlicki - Price/Quantity/Add to Bag button tweaks (1000px bug not taken care of !)*/
+
+.price {display: inline-block;float:left;padding:5px;margin:10px 0px 0px 0px!important;}
+.in-stock{display: none;}
+.cart {margin:0px!important;margin-top:10px!important;float:right;}
+.quantity.buttons_added {padding:0px!important;max-width:200px;width:auto;margin-right:2.5vw!important}
+.single-product .summary.entry-summary .cart button {position:relative!important;bottom:7px;}
+.quantity.buttons_added .input-text.qty.text {font-family: verlag-light!important;font-weight:100;}
+.single-product .price .woocommerce-Price-amount .amount, .single-product .price .amount span {font-size: 20px!important;}
+.woocommerce-Price-amount .amount span {font-size:20px!important;}
+.woocommerce div.product .cart .quantity {margin-right: 0px;}
+.woocommerce div.product .cart .quantity__label {margin-right: -10px;}
+
+/*Added by Kuba Rychlicki - Language menu Cockroaches*/
+#nav-menu-item-17661{display:none;}
+#nav-menu-item-17668{display:none;}
+#nav-menu-item-17122 a {margin:0px!important;padding:0px!important;top:1px;}
+#nav-menu-item-16875 a {margin:5px 0px 0px 0px!important;padding:0px!important;float:right!important;}
+
+.header_bottom_widget widget_icl_lang_sel_widget {font-size:16px;}
+header.centered_logo nav.main_menu, header.centered_logo nav.main_menu.left, header.centered_logo nav.main_menu.right{width:calc(100% - 164px)!important;padding-top:2px;}
+.wpml-ls-legacy-dropdown a {border: 0px;background-color: #fff;margin-bottom:3px;}
+.wpml-ls-legacy-dropdown .wpml-ls-flag {margin: 0px 0px 2px 5px;}
+.wpml-ls-legacy-dropdown .wpml-ls-item {font-size: 16px!important;text-transform: uppercase;}
+.header_bottom_right_widget_holder {padding:0px;margin:0px;max-width:76px;}
+
+.wpml-ls-current-language span {display:none;}
+.js-wpml-ls-item-toggle.wpml-ls-item-toggle .wpml-ls-native{display:none;}
+.wpml-ls-last-item span {display:unset;width:auto;}
+.wpml-ls-sub-menu {width:164px!important;text-align:left;}
+.wpml-ls-sub-menu a {padding-left:13px;}
+.wpml-ls-flag {width: 21px!important;height: 12.5px!important;}
+.wpml-ls-item-toggle:lang(pl) {bottom:1px!important;}
+.wpml-ls-item-toggle:lang(en) {bottom:0px!important;}
+
+.wpml-ls-link {padding:22px 22px 22px 13px!important;font-family: verlag-book!important;font-weight: 500!important;letter-spacing: 1.4px;font-size: 14px;}
+.wpml-ls-link:hover {background-color: #fff!important;}
+.wpml-ls-sub-menu span:hover {color:#03B9B6!important;}
+.sticky_animate .main_menu.drop_down.left {width:calc(100% - 238px)!important;padding-top: 5px;}
+.sticky_animate #nav-menu-item-17122:lang(pl) {margin-top:4px;}
+.sticky_animate .wpml-ls-item-toggle:lang(pl) {margin-bottom:1px;bottom:unset!important;}
+.sticky_animate #nav-menu-item-16875 {bottom:0px;}
+.sticky_animate .wpml-ls-item-toggle:lang(en) {margin-bottom:3px;bottom:unset!important;}
+
+/*Added by Kuba Rychlicki - Testimonials tweaks*/
+.testimonials_holder.clearfix.dark {
+	max-height: 100px;
+	overflow: hidden;
+	margin: 0px !important;
+	padding: 10px 0px;
+	text-align: justify;
+}
+
+.testimonial_text_inner p:before {content: "\"";}
+.testimonial_text_inner p {font-family: verlag-light;font-style:italic;font-weight:100;line-height: 16px;margin:0px!important;}
+.testimonial_text_inner p:after {content: "\"";}
+.testimonial_author {color:#000!important;padding: 0px;margin:0px;font-style:unset!important;}
+p.testimonial_author:before {content: "@";}
+p.testimonial_author:after {content: unset;}
+.author_company_divider {display: none;}
+.author_company {display: none;}
+.testimonials_holder .flex-direction-nav {display: none;}
+
+
+/*Added By Kuba Rychlicki - Polish Category Names Bug - Zestawy i Upominki edited by Bartosz Gajewski*/
+.single-product .product_cat-pielegnacja-ciala h4:after {content:"pielęgnacja ciała"!important;}
+.single-product .product_cat-pielegnacja-twarzy h4:after {content:"pielęgnacja twarzy"!important;}
+.single-product.postid-17000 .product_cat-zestawy-upominki h4:after {content:"zestawy & upominki"!important;}
+.single-product .product_cat-aromatherapy-pl h4:after {content:"aromaterapia"!important;}
+
+/*Added By Kuba Rychlicki - Moje konto adjustment */
+
+.logged-in #nav-menu-item-17122 a::before {content:"Moje Konto"!important;}
+.logged-in #mobile-menu-item-17122 a::before {content:"Moje Konto"!important;}
+
+
+/*Added by  Kuba Rychlicki - undisplay arrow where invisible*/
+
+.mobile_menu > ul > li > ul > li >.sub_menu .mobile_arrow{
+        display: none!important;
+      }
+
+/*Site wide notice adjustment*/
+.woocommerce-store-notice.demo_store {
+	position: fixed;
+	bottom:0px;
+	z-index: 10000;
+	width:auto;
+	margin-left:20%;
+}
+
+
+/*Language switcher list adjustment*/
+.wpml-ls-sidebars-header_right_from_logo.wpml-ls.wpml-ls-legacy-dropdown.js-wpml-ls-legacy-dropdown {
+    position:fixed;
+    top:0px;
+    right:10vw;
+    width:auto;
+}
+*/
+
+/*Checkout Subscribe adjustment
+input#mailchimp_woocommerce_newsletter.input-checkbox {display:inline!important;}
+label[for=mailchimp_woocommerce_newsletter].checkbox {display:inline!important;position: relative;top:-22px!important;left:20px;}*/
+
+.page-id-17179 #customer_login input {width: unset!important;}
+.page-id-16868 #customer_login input {width: unset!important;}
+
+.register #privacy-policy-consent{margin-right: 10px!important;}
+.register #mailchimp_woocommerce_newsletter {margin-right: 8px!important;}
+.register .checkbox {text-transform: uppercase!important;font-size: 13px;}
+
+/*Cart page adjustments*/
+.page-id-6 .woocommerce-cart__button {color: #fff!important;pointer-events: none;}
+.page-id-6 .cross-sells #product-list .image-wrapper img, .related.products .image-wrapper img {width: 50%;}
+
+/*Shopping bag icon adjustment */
+@media all {.shopping_cart_header .header_cart.cart_icon::before {color: #323232;-webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.67);}}
+@media all {@media (min-width: 1000px) {nav.main_menu {margin-top:unset!important;}}}
+
+/*Inci Explainer adjustments*/
+
+ .page-id-16199 #inci-exp-col {max-width: 70%;}
+ .page-id-16199 #inci-exp-col-a {width: 30%;}
+ .page-id-16199 table {width:100%;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+ .page-id-16199 tbody {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+ .page-id-16199 tr {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+ .page-id-16199 td {margin:0px 0px 0px 0px;padding:0px 0px 25px 15px;line-height: 1.6em;}
+#inci-explainer td {text-align: left;}
+#inci-explainer table {}
+.inci-explainer-col span {font-size: calc(12px + 0.8vh)!important;}
+#inci_explainer_alfa span {font-size: 18pt;letter-spacing: 1.2vw;}
+#inci_explainer_alfa a {color:#000;}
+#inci_explainer_alfa p {color:#999;}
+
+@media only screen and (max-width:767px)
+{
+  .page-id-16199 .container_inner.default_template_holder.clearfix.page_container_inner {width:100%!important;}
+  .page-id-16199 #inci_explainer_alfa  {width:84vw!important;margin-left: auto;margin-right: auto;overflow-wrap:break-word;}
+  .page-id-16199 #inci_explainer_alfa a {width:80%;overflow-wrap: break-word;}
+  .page-id-16199 #inci_explainer_alfa p {font-size: 12px!important;line-height: 40px!important;}
+  .inci-explainer-col span {font-size: calc(9px + 0.8vh)!important;}
+  .page-id-16199 #inci-exp-col {max-width: 60%;}
+  .page-id-16199 #inci-exp-col-a {width: 40%;}
+  .page-id-16199 td {margin: 0px 0px 0px 0px;padding: 0px 0px 15px 5px;line-height: 1.6em;}
+}
+
+@media only screen and (max-width:359px)
+{   
+ .page-id-16199 #inci-exp-col {max-width: 50%;}
+ .page-id-16199 #inci-exp-col-a {width: 50%;}   
+}
+
+/*Inci Explainer adjustments PL version Added by Bartosz Gajewski*/
+
+ .page-id-17140  #inci-exp-col {max-width: 70%;}
+ .page-id-17140  #inci-exp-col-a {width: 30%;}
+ .page-id-17140  table {width:100%;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+ .page-id-17140  tbody {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+ .page-id-17140  tr {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+ .page-id-17140  td {margin:0px 0px 0px 0px;padding:0px 0px 25px 15px;line-height: 1.6em;}
+#inci td {text-align: left;}
+#inci table {}
+.inci-col span {font-size: calc(12px + 0.8vh)!important;}
+#inci_alfa span {font-size: 18pt;letter-spacing: 1.2vw;}
+#inci_alfa a {color:#000;}
+#inci_alfa p {color:#999;}
+
+@media only screen and (max-width:767px)
+{
+  .page-id-17140 .container_inner.default_template_holder.clearfix.page_container_inner {width:100%!important;}
+  .page-id-17140 #inci_explainer_alfa  {width:84vw!important;margin-left: auto;margin-right: auto;overflow-wrap:break-word;}
+  .page-id-17140 #inci_explainer_alfa a {width:80%;overflow-wrap: break-word;}
+  .page-id-17140 #inci_explainer_alfa p {font-size: 12px!important;line-height: 40px!important;}
+  .inci-explainer-col span {font-size: calc(9px + 0.8vh)!important;}
+  .page-id-17140 #inci-exp-col {max-width: 60%;}
+  .page-id-17140 #inci-exp-col-a {width: 40%;}
+  .page-id-17140 td {margin: 0px 0px 0px 0px;padding: 0px 0px 15px 5px;line-height: 1.6em;}
+}
+
+@media only screen and (max-width:359px)
+{   
+ .page-id-17140 #inci-exp-col {max-width: 50%;}
+ .page-id-17140 #inci-exp-col-a {width: 50%;}   
+}
+
+/*Instagram Feed and breadcrumb+title container  width adjustments*/
+
+ .title .title_holder .container #breadcrumbs * {
+	color:#AAA!important;font-family:verlag-light!important;font-weight:400;
+}
+@media only screen and (max-width: 467px)
+{
+   .title .title_holder .container #breadcrumbs {font-size:12px!important;}
+}
+
+@media only screen and (max-width: 767px)
+{
+ .instafeed {width:100vw!important;}
+ .instafeed .sbi_item{min-width:98vw;}
+ .instafeed #sbi_load {width:100vw!important;}
+  .title_outer.animate_title_area {max-width: 87vw!important;margin-left:auto!important;margin-right:auto!important;}
+}
+
+@media only screen and (min-width: 768px)and (max-width:999px)
+{
+ .instafeed {width:100vw!important;}
+ .instafeed .sbi_item{min-width:49vw;}
+ .instafeed #sbi_load {width:100vw!important;}
+  .title_outer.animate_title_area {max-width: 90vw!important;margin-left:auto!important;margin-right:auto!important;}
+}
+
+@media only screen and (min-width: 1000px) and (max-width:1099px)
+{
+ .instafeed {width:100vw!important;}
+ .instafeed .sbi_item{min-width:49vw;}
+ .instafeed #sbi_load {width:100vw!important;}
+  .title_outer.animate_title_area {max-width: 91vw!important;margin-left:auto!important;margin-right:auto!important;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1199px)
+{
+ .instafeed {width:100vw!important;}
+ .instafeed .sbi_item{min-width:32.67vw;}
+ .instafeed #sbi_load {width:100vw!important;}
+  .title_outer.animate_title_area {max-width: 92vw!important;margin-left:auto!important;margin-right:auto!important;}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px)
+{
+  .title_outer.animate_title_area {max-width: 1100px!important;margin-left:auto!important;margin-right:auto!important;}
+}
+
+@media only screen and (min-width: 1300px)
+{
+  .title_outer.animate_title_area {max-width: 1200px!important;margin-left:auto!important;margin-right:auto!important;}
+}
+
+
+/* Mobile ad bottom padding */
+@media only screen and (max-width: 767px)
+{
+   .ad-home-1 {padding-bottom:10px;}
+}
+
+/* Sign Up link cursor to pointer*/
+.page-id-15252 input[type="submit"] {cursor:pointer!important;}
+
+/*Mission + social media banner width adjustments*/
+@media only screen and (min-width:1000px) and (max-width:1200px)
+{
+    .header_top .container_inner.clearfix {width:91.6vw;}
+}
+
+/*Tradition banner adjustments*/
+
+@media only screen and (min-width: 769px) and (max-width:999px)
+{
+.tradition-banner-desktop .wpb_wrapper div {min-width: 560px;margin-left:6vw!important;}
+}
+
+@media only screen and (width: 768px)
+{
+.tradition-banner-desktop .wpb_wrapper div {min-width: 560px;margin-left:1vw!important;}
+}
+
+@media only screen and (min-width: 768px)
+{
+.tradition-banner-mobile{display:none;}
+}
+
+@media only screen and (max-width: 767px)
+{
+.tradition-banner-desktop{display:none;}
+.tradition-banner-mobile .section .mobile-video-image, div.section {background-position: 27% 12px;}
+}
+
+/*Added bottom border to mobile menu */
+
+@media only screen and (max-width:767px)
+{
+.header_top_bottom_holder {border-bottom: 2px solid #1d1d1b !important;}
+}
+
+
+/*Goldway Page Adjustment*/
+.page-id-15533 .content {margin-top:unset;}
+
+/*Smoothing all fonts*/
+html, html a {
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+
+
+.page-id-16089 .mobile-banner {width:100%;padding:unset;}
+.page-id-16089 .mobile-banner .vc_single_image-wrapper {width:100%;}
+.page-id-16089 .mobile-banner img {width:100%;}
+
+
+/*Giftwrapping adjustments*/
+#gemagiftfront .attachment-shop_catalog.size-shop_catalog {display: none!important;}
+
+@media all {
+    #gemagiftfront {width:100%;float: left;border:0px;margin:0px;-webkit-font-smoothing: subpixel-antialiased ;}
+    #gemagiftfront br {display: none;}
+    #gemagiftfront li {width:100%!important;}
+    #gemagiftfront span {padding-left:10px;}
+    #gemagiftfront input.button {border:0px;font-family: verlag-light;font-size:16px;float:left;}
+  .cat-item.cat-item-200 {display: none;}
+}
+@media only screen and (min-width:601px) and (max-width:767px)
+{
+    .x5cart__product-name {width:100vw;}
+    #gemagiftfront p{font-size:14px!important;}
+    #gemagiftfront input.button {margin:0px!important;margin-bottom:25px!important;float:left;padding:0px;left:80%;bottom:37px;}
+    #gemagiftfront input.radio {pright:10px!important;}
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .x5cart__product-name {width:100vw;}
+    #gemagiftfront p{font-size:14px!important;}
+    #gemagiftfront input.button {margin:0px!important;margin-bottom:25px!important;float:left;padding:0px;left:65.6%;}
+}
+
+@media only screen and (min-width:768px) and (max-width:999px)
+{
+    .x5cart__product-name {width:calc(45/65*100%);}
+    #gemagiftfront input.button {margin:0px!important;float:right!important;right:11.5%;bottom: 37px;}
+}
+
+@media only screen and (min-width:1000px) and (max-width:1199px)
+{
+    #gemagiftfront input.button {margin:0px!important;float:right!important;right:13%;bottom: 40px;}
+}
+
+@media only screen and (min-width:1200px) and (max-width:1599px)
+{
+    #gemagiftfront input.button {margin:0px 0px 0px 15px!important;}
+}
+
+#gemagiftfront .attachment-shop_catalog.size-shop_catalog {display: none!important;}
+
+
+/*Added Product image viewing adjustements*/
+
+@media only screen and (max-width: 767px)
+{
+    #pp_full_res img
+    {
+         height: 925px !important;
+         width:660px!important;
+         max-width:unset!important;
+    }
+    .pp_fade {width: 100vw!important;}
+    .pp_pic_holder.pp_default 
+    {
+    	width:100vw!important;
+        left:calc(50vw - 330px)!important;
+        top:-100px!important;    
+    }
+    .pp_content {height: 100vh;width:100vw;}
+    .pp_hoverContainer
+    {
+        height: 10vh !important;
+        width: 100vw !important;
+        top: 50vh!important;
+        left:calc(50vw - 45px)!important;
+    }
+    .pp_details{left:calc(50vw - 45px)!important;top:-120px;}
+}
+
+@media only screen and (min-width: 768px) {
+    .pp_pic_holder.pp_default 
+    {
+        top: -100px!important;
+        display: block;
+        left: calc(50vw - 330px)!important;
+        width: 660px !important;
+    }
+
+    .pp_content {height: 100%;width: 100%;}
+    .pp_fade {width: 660px!important;}
+    #pp_full_res img{width:660px!important;height:925px!important;}
+    .pp_hoverContainer
+    {
+        height: 55%!important;
+        width: 100%!important;
+        top:25%;
+    }
+    .pp_details{top:-100px;width:100%!important;}
+}
+
+/*Decrease mobile menu height.*/
+
+@media all {.mobile_menu {margin-bottom: 0px!important;}}
+
+
+/*SVG logo size adjustment*/
+.alba1913-logo-svg img {width:100%;}
+.alba1913-logo-svg div {width:70px;text-align:center;}
+
+/*Centering philosophy icons*/
+.wpb_text_column.wpb_content_element.philosophy-icons {text-align: center!important;}
+
+/*Social media widget adjustment*/
+#social-media-widget { text-align: right;padding-top:10px;}
+
+/*added by Kuba Rychlicki - Changed to image banner  - removing caption*/
+.nivo-caption {display: none!important;}
+.nivoSlider {box-shadow: 0 0px 0px 0 #ffffff!important;}
+.nivo-controlNav {display:none;}
+
+/*Added by Kuba Rychlicki - Store Wide Notice tweaks - needs mobile check
+.woocommerce-store-notice {display:inline-block;float:right;position: fixed;
+  bottom: 8px;
+  z-index: 1000;
+  width: 100%;
+  height: 23px;
+  background-color: #000;
+  color: #fff;
+  padding:5px;
+  padding-left:13%;
+  font-weight:600;
+  font-size:17px;  
+  letter-spacing:1px;
+}
+
+.woocommerce-store-notice a {
+  padding-left: 25px;
+  color: #FA8209;
+    opacity:0.5;
+  font-family:chaparral!important;
+ 	font-style:italic;
+    font-weight:600;
+    letter-spacing: unset;
+}
+.woocommerce-store-notice a:hover {
+  padding-left: 25px;
+  color: #FA8209!important;
+    opacity:1;
+  font-family:chaparral!important;
+ 	font-style:italic;
+    font-weight:600;
+}
+
+/*Removed Categories from mobile product list */
+@media only screen and (max-width: 600px) {
+ .woocommerce-page .content .container .column1 {
+            display: none;
+        }
+    }
+
+/*Added BY Kuba Ryhclicki -  Search results bug */
+
+.search-results .single_add_to_cart_button.button.alt.qbutton {font-size:12px!important; padding-left:15px!important;padding-right:15px!important;}
+
+/*Added by Kuba rychlicki - Adjusted shopping bag color*/
+@media all {
+    .shopping_cart_header .header_cart.cart_icon::before {
+{
+        color: #555555;
+    }
+}
+
+/*Added by Kuba Rychlicki - adjusted bag and search icon a few px down*/
+
+@media all {
+header.sticky_animate .header_inner_right {
+    margin-top: 8px;
+}
+}
+
+/*Added by Kuba Rychlicki - Adjusted position of background in "Grounded ..."*/
+
+.vc_custom_1502734304862 {
+    background-position: 30% center!important;
+}
+
+/*Added by Kuba Rychlicki - changing from image to formatted text on healthy is beautiful logo - adjusted top widgets so they stay at the edges of the container*/
+
+.right .inner {position: relative;right:5px;}
+.right .inner i.qode_icon_font_awesome.fa.fa-youtube-play {position:relative;bottom:4px;}
+.right .inner i.qode_icon_font_awesome.fa.fa-youtube-play {font-size: 29px!important;}
+.q_social_icon_holder .fa-stack {border-width:0px!important;}
+.q_social_icon_holder.circle_social .fa-stack:hover, .q_social_icon_holder.square_social .fa-stack:hover {background-color: transparent;}
+.footer_inner .qode_icon_font_awesome.fa.fa-youtube-play {
+    font-size: 25px!important;
+    background-color: #d6c7c7;
+    position: relative;
+    bottom: 5px;
+}
+.footer_inner  .fa-stack {background-color: #d6c7c7;}
+
+.widget_text.header-widget.widget_custom_html.header-left-widget {text-align: left;}
+
+.widget_text.header-widget.widget_custom_html h1{font-size:unset;}
+
+.header-left-widget .textwidget.custom-html-widget 
+{
+     width:145px;
+     position:relative;
+     top:-15px;
+}
+
+.widget_text.header-widget.widget_custom_html.header-left-widget .healthy 
+{
+   display: inline;
+   font-size: 23px;
+   padding: 0px;
+   margin: 0px;
+   font-weight: 400;
+}
+
+.widget_text.header-widget.widget_custom_html.header-left-widget .healthyis 
+{
+   display: inline;
+   font-family: chaparral-italic!important;
+   font-size: 26px;
+   padding: 0px;
+   margin: 0px;
+   font-weight: 400;
+}
+.widget_text.header-widget.widget_custom_html.header-left-widget .healthyisbeautiful 
+{
+     font-family: verlag-bold!important;
+     font-size: 23px;
+     line-height: 16px;
+     padding:0px;
+     font-weight: 400;
+     position: relative;
+     top: 4px;
+}
+.widget_text.header-widget.widget_custom_html.header-left-widget a 
+{
+     position:absolute;
+     top:0px;
+     left:0px;
+     width:100%;
+     height:100%;
+     display:inline;
+}
+
+/*Added by Kuba Rychlicki - Emphasis on the add to bag button*/
+.single_add_to_cart_button.button.alt.qbutton {
+    display: block;
+    background: #000;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 18px 5px 18px;
+}
+.single_add_to_cart_button.button.alt.qbutton:hover {color:#00a2ab;}
+
+/*Added by Kuba Rychlicki - Changed USA into flag + some minor adjustments - needs test if it's necessary
+
+#nav-menu-item-15477 span {
+    color:transparent;
+    background-image: url('https://alba1913.com/wp-content/uploads/2017/05/Flag-USA.png');
+    width:23px;
+    height:17px;
+}*/
+
+#nav-menu-item-15598 span {background-image: none;color:#000;}
+#nav-menu-item-15599 span {background-image: none;color:#000;}
+#nav-menu-item-15598 span:hover {color:#00a2ab;!important}
+#nav-menu-item-15599 span:hover {background-image: none;color:#00a2ab;}
+
+/*Added by Bartosz Gajewski - Changed Polska into flag + some minor adjustments - needs test if it's necessary
+
+#nav-menu-item-17199 span {
+    color: transparent;
+    background-image: url('http://albathyment.com.pl/Alba1913PL/wp-content/uploads/2018/03/Flag-Polish.png');
+    width: 23px;
+    height: 17px;
+}*/
+
+#nav-menu-item-17201 span {background-image: none;color:#000;}
+#nav-menu-item-17200 span {background-image: none;color:#000;}
+#nav-menu-item-17201 span:hover {color:#00a2ab;!important}
+#nav-menu-item-17200 span:hover {background-image: none;color:#00a2ab;}
+
+/* Addded by Kuba Rychlicki - Product thumbnail on mobile cart */
+@media only screen and (max-width: 780px) {
+.x5cart__product-thumb img {
+    width: 120px!important;
+    height: auto!important;
+ }
+}
+
+/* Related products font tweak - Changed to You may also like in template*/
+.related.products h2 {
+    font-family: verlag-bold!important;
+    padding: 0px 0px 10px 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*Added by Kuba Rychlicki - Plus minus/arrows tweak*/
+@media all {
+.plus {position: relative ;left:16px;}
+.minus {position: relative ;left:16px;}
+}
+
+@media only screen and (max-width: 780px) {
+    .single-product div.product form.cart .quantity input, .single-product div.product form.cart .quantity ~ .button {
+        width: auto;
+    }
+}
+    .woocommerce table.shop_attributes th {
+        text-transform: uppercase;
+        font-family:verlag-book!important;
+        font-weight: 400;
+        text-align:left!important;
+        font-size: 12px;
+        min-width: 130px;
+    }
+
+
+/*Added by Kuba Rychlicki - Tweak review title */
+@media all {
+    .woocommerce #respond #reply-title, .woocommerce #reviews h2 {display:none;}
+}
+/*Added by Kuba rychlicki - Tweak review submit button*/
+#submit {border-radius: 0px;
+    border-width: 1px;
+    font-family: verlag-light!important;
+    font-weight: 400 !important;
+    border-color:#322f31;
+}
+/*Added by Kuba Rychlicki - Tweak of quantity font size and color*/
+@media all {.single-product .quantity__label
+{font-size: 16px;color: #322f31;letter-spacing: 0.7px;}}
+
+/*Added by kuba rychlicki - checktout in dropdown cart tweak*/
+
+.shopping_cart_dropdown .custom-checkout {position:relative; bottom:2px;float:left;}
+
+/*Added by Kuba Rychlicki - Tweak quantity arrows width */
+
+.qty {position:relative;float:right;}
+.quantity__button-holder {min-width: 40px;}
+
+/*Added by Kuba Rychlicki - Tweak cart visible on resolution lower than 421*/
+@media only screen and (max-width: 421px) {
+.shopping_cart_outer{
+display: inline !important;
+right: 5px;
+}
+}
+
+/*Added by Kuba Rychlicki - Tweak Total price in mobile cart*/
+
+@media only screen and (max-width: 782px) {
+.x5cart__product-subtotal {
+    margin-top:0px;
+    margin-right: auto;
+}}
+
+/*Added by Kuba Rychlicki - Tweak to my account address changes*/
+.page-id-8 .woocommerce-MyAccount-content input {
+    width: auto!important;
+	border-radius:0px!important;
+    border-width:0px 0px 0px 0px;
+    border-bottom: 1px solid black!important;
+    font-size: 14px;
+    font-family: 'verlag-light';
+    font-weight: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all 0.25s;
+
+    &::placeholder {
+      text-transform: uppercase;
+      color: black;
+      font-size: 14px;
+      transition: all 0.25s;
+    }
+  }
+
+.page-id-8.woocommerce-MyAccount-content input:focus {
+    color: $color-teal;
+    border-bottom-color: $color-teal;
+
+    &::placeholder {
+      color: $color-teal;
+      opacity: 0.3;
+    }
+  }
+
+.page-id-8 .woocommerce-MyAccount-content input.input-text {
+    width: auto!important;
+    max-width: 375px;
+	border-radius:0px!important;
+    border-width:0px!important;
+    border-bottom: 1px solid black!important;
+    font-size: 14px;
+    font-family: 'verlag-light';
+    font-weight: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all 0.25s;
+
+    &::placeholder {
+      text-transform: uppercase;
+      color: black;
+      font-size: 14px;
+      transition: all 0.25s;
+    }
+  }
+.page-id-8 .woocommerce-MyAccount-content .select2 {max-width:404px;font-size:13px;}
+.page-id-8 .woocommerce-MyAccount-content .select2-selection__rendered {margin-left:15px;}
+
+.page-id-8 .woocommerce-MyAccount-content input.button {
+    width: auto!important;
+	border-radius:0px!important;
+    border: 1px solid black!important;
+    font-size: 14px;
+    font-family: 'verlag-light';
+    font-weight: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all 0.25s;
+
+    &::placeholder {
+      text-transform: uppercase;
+      color: black;
+      font-size: 14px;
+      transition: all 0.25s;
+    }
+}
+.form-row {display: flex;flex-direction: column;
+    @include respond-to(s) {align-items: flex-start;}}
+
+
+/*Added by Kuba Rychlicki - Changed Country submenu width */
+#nav-menu-item-15477 ul {width:10vw!important;}
+
+/*Added By Kuba Rychlicki - Changed Mark Styling */
+mark {color:#000000;background-color:#F7CED6; padding:3px 4px 2px 4px;border-radius: 3px;}
+
+/*Added By Kuba Rychlicki - Changed Menu Styling */
+/*Face Submenu*/
+#nav-menu-item-15638.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:#FA8029;} 
+#nav-menu-item-15638 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
+
+#nav-menu-item-16015.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:#FA8029;} 
+#nav-menu-item-16015 .submenu-subcat a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+/*Body Submenu*/
+
+#nav-menu-item-15621.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:black;}
+#nav-menu-item-15621 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+#nav-menu-item-15621 .nav-color-orange a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;color:#FC6C12!important;}
+#nav-menu-item-15621 .nav-color-teal a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;color:#03B9B6!important;}
+#nav-menu-item-15621 .nav-color-pink a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;color:#B41CAB!important;}
+ 
+#nav-menu-item-17689 a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;color:#F4E4B3!important;}
+#nav-menu-item-17677 span {font-size:13px!important;font-family:verlag-light!important;font-weight:500!important;color:black!important;}
+
+#nav-menu-item-15451.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:black;} 
+#nav-menu-item-15451 .submenu-subcat a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+
+/*Aromatherapy Submenu*/
+
+#nav-menu-item-17659 .submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;} 
+#nav-menu-item-17659 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+/*Gifts Submenu*/
+
+#nav-menu-item-16023.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:black;}
+#nav-menu-item-16023 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
+
+/*Country Submenu*/
+
+#nav-menu-item-15477 .submenu-lang a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
+
+
+/*Added By Bartosz Gajewski - Changed Menu Styling PL*/
+/*Face Submenu*/
+#nav-menu-item-17055.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} 
+#nav-menu-item-17055 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
+#nav-menu-item-18140 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
+
+#nav-menu-item-17116.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} 
+#nav-menu-item-17116 .submenu-subcat a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+/*Body Submenu*/
+#nav-menu-item-17069.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} 
+#nav-menu-item-17069 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+#nav-menu-item-18139 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+#nav-menu-item-17690 a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;color:#F4E4B3!important;}
+#nav-menu-item-17679 span {font-size:13px!important;font-family:verlag-light!important;font-weight:500!important;color:black!important;}
+
+#nav-menu-item-16890.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;}
+#nav-menu-item-16890 .submenu-subcat a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+/*Aromatherapy Submenu*/
+#nav-menu-item-17660 .submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500!important;}
+#nav-menu-item-17660 .menu-item-object-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+
+#nav-menu-item-17687 a[href="https://www.alba1913.pl/kategoria-produktu/aromatherapy-pl/aromatherapy-produkty/"]
+{
+  font-size: 14px!important;
+  font-weight: 500!important;
+  font-family: verlag-book!important;
+}
+#nav-menu-item-17686 a[href="https://www.alba1913.pl/en/product-category/aromatherapy/aromatherapy-products/"]
+{
+  font-size: 14px!important;
+  font-weight: 500!important;
+  font-family: verlag-book!important;
+}
+
+
+/*Sets Submenu*/
+#nav-menu-item-17123.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} 
+#nav-menu-item-17123 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
+#nav-menu-item-18119 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+#nav-menu-item-18208 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+#nav-menu-item-18207 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+#nav-menu-item-18120 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+#nav-menu-item-18209 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+#nav-menu-item-18210 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+
+#nav-menu-item-17775 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+#nav-menu-item-17773 span{font-size: 13px!important;font-family: verlag-light!important;font-weight: 500;}
+
+
+
+/*Added BY Kuba Rychlicki - Justify posts in about alba */
+
+@media all {.page-id-15302 .about-post p {text-align: justify;}}
+
+/*Added BY Kuba Rychlicki - Bold price was ugly*/
+
+.woocommerce-Price-amount.amount {font-family: verlag-bold!important;}
+
+/*Added BY Kuba Rychlicki - Image gallery prev/next arrow pic fix*/
+@media all {body a.pp_previous::after {left: 0px;}}
+@media all {body a.pp_next::after {right:0px;}}
+
+/*Added BY Kuba Rychlicki - Disco kit description disappearing fix*/
+.postid-15709 .description_tab.active a {
+    pointer-events: none;
+    cursor: default;
+}
+.postid-15709 .tabs-nav {
+    pointer-events: none;
+    cursor: default;
+}
+
+/*Added BY Kuba Rychlicki - Related products line height fix*/
+#product-list .product-info, .related.products .product-info {margin-bottom: auto!important;}
+
+/*Added by Kuba Rychlicki - iPhone/iPad product page  bugs */
+
+@media only screen and (max-width: 782px) {
+.single-product div.product form.cart .quantity {
+        width: auto;
+        margin-right: 0;
+    }
+.quantity__button-holder.quantity__button-holder--minus {width:auto;padding:0px;margin-right: -12px;margin-left:-10px;}
+.quantity__button-holder.quantity__button-holder--plus {width:auto;padding:0px;margin-left: -12px;}
+
+.single_add_to_cart_button.button.alt.qbutton {
+    text-align: right;
+    bottom: 15px;
+    font-family:verlag-light!important;
+    background-color: #000;
+    color:#fff;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-size:12px!important;
+    font-weight: 600;
+    padding-right:7px;
+    padding-left:12px;
+}
+a.product-category.product-info {margin-bottom: auto;}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 782px) {
+.single-product div.product form.cart .quantity input {width: 50px;}
+.single_add_to_cart_button.button.alt.qbutton {
+    bottom: 0px;
+    font-family:verlag-light;
+}
+a.product-category.product-info a {margin-bottom: auto;}
+}
+
+/*Added by Kuba Rychlicki - Changing font of Login and Register text on my account page*/
+.page-id-8 #customer_login h2{font-size:18px;font-family:verlag-book;text-transform:uppercase;font-weight:200;letter-spacing:1px;}
+
+/*Added by Kuba Rychlicki - Adding margin-top to philosophy vid to center */
+.page-id-15302 .philosophy-vid {display: block;margin-top:81px;}
+
+/*Added by Kuba Rychlicki - Hid the Post list @kursez on the main page and switched for blog carousel. this edits the arrows and titles
+.qode-blog-carousel-titled .qode-bct-title-holder * {color: #afafaf !important;}
+.qode-blog-carousel-titled .qode-bct-title-holder {
+    position: relative;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 0px;
+    color: #fff;
+    padding: 0px;
+}
+.qode-blog-carousel-titled .qode-bct-post .qode-bct-post-excerpt {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.qode-blog-carousel-titled .qode-bct-post .qode-bct-post-title {
+    margin-bottom: 8px;
+    display: none;
+}
+
+
+/*Added BY Kuba Rychlicki -  Removing header and footer from coming soon page*/
+
+.page-id-16031 .header_top_bottom_holder{display: none;}
+.page-id-16031 .footer_top_holder{display: none;}
+.page-id-16031 .footer_bottom_holder{display: none;}
+
+/*Added by Kuba Rychlicki - Submenu items bold */
+
+#menu-item-15625 span {font-family:verlag-bold!important;}
+#menu-item-15624 span {font-family:verlag-bold!important;}
+#menu-item-15626 span {font-family:verlag-bold!important;}
+
+#menu-item-15638 a {font-family:verlag-bold!important;}
+#menu-item-15638 .ubermenu-submenu a {font-family:verlag-light!important;}
+#menu-item-16015 a {font-family:verlag-bold!important;}
+#menu-item-16015 .ubermenu-submenu a {font-family:verlag-light!important;}
+#menu-item-15621 a {font-family:verlag-bold!important;}
+#menu-item-15621 .ubermenu-submenu a {font-family:verlag-light!important;}
+#menu-item-15451 a {font-family:verlag-bold!important;}
+#menu-item-15451 .ubermenu-submenu a {font-family:verlag-light!important;}
+#menu-item-16022 a {font-family:verlag-bold!important;}
+#menu-item-16022 .ubermenu-submenu a {font-family:verlag-light!important;}
+#menu-item-16023 a {font-family:verlag-bold!important;}
+#menu-item-16023 .ubermenu-submenu a {font-family:verlag-light!important;}
+
+/* Hands & Feet */
+.product_cat-hands-and-feet a img { background-color: #A7E6E5; }
+.product_cat-hands-and-feet a img:hover { background-color: #03B9B6; }
+
+/* Hands & Feet PL*/
+.product_cat-hands-and-feet-pl a img { background-color: #A7E6E5; }
+.product_cat-hands-and-feet-pl a img:hover { background-color: #03B9B6; }
+
+/* Aromatherapy PL */
+.product_cat-aromatherapy-pl a img { background-color: #ECE4A7; }
+.product_cat-aromatherapy-pl a img:hover { background-color: #B19800; }
+
+/* Aromatherapy */
+.product_cat-aromatherapy a img { background-color: #ECE4A7; }
+.product_cat-aromatherapy a img:hover { background-color: #B19800; }
+
+/* Beauty Ritual*/
+/*GRAPEFRUT*/
+.post-17606 a img { background-color: #F1FADF; }
+.post-17606 a img:hover { background-color: #D6EA8B; }
+/*GRAPEFRUT PL*/
+.post-17607 a img { background-color: #F1FADF; }
+.post-17607 a img:hover { background-color: #D6EA8B; }
+/*JASMIN*/
+.post-17618 a img { background-color: #EDEAF5; }
+.post-17618 a img:hover { background-color: #C7B6E2; }
+/*JASMIN PL*/
+.post-17619 a img { background-color: #EDEAF5; }
+.post-17619 a img:hover { background-color: #C7B6E2; }
+/*YLANG-YLANG*/
+.post-17600 a img { background-color: #FAEAF6; }
+.post-17600 a img:hover { background-color: #EFBBE1; }
+/*YLANG-YLANG PL*/
+.post-17601 a img { background-color: #FAEAF6; }
+.post-17601 a img:hover { background-color: #EFBBE1; }
+/*ORANGE*/
+.post-17624  a img { background-color: #E4F7F5; }
+.post-17624  a img:hover { background-color: #ACE1D6; }
+/*ORANGE PL*/
+.post-17625  a img { background-color: #E4F7F5; }
+.post-17625  a img:hover { background-color: #ACE1D6; }
+/*TONKA*/
+.post-17612 a img { background-color: #EDF2F5; }
+.post-17612 a img:hover { background-color: #CAD1DA; }
+/*TONKA PL*/
+.post-17613 a img { background-color: #EDF2F5; }
+.post-17613 a img:hover { background-color: #CAD1DA; }
+
+/* Body maintenance */
+.product_cat-body-maintenance a img { background-color: #FDC9AA; }
+.product_cat-body-maintenance a img:hover { background-color: #FC6C12; }
+
+/* Body maintenance PL*/
+.product_cat-body-maintenance-pl a img { background-color: #FDC9AA; }
+.product_cat-body-maintenance-pl a img:hover { background-color: #FC6C12; }
+
+/* Body repair */
+.product_cat-body-repair a img { background-color: #E0AAE0; }
+.product_cat-body-repair a img:hover { background-color: #B41CAB; }
+
+/* Body repair PL*/
+.product_cat-body-repair-pl a img { background-color: #E0AAE0; }
+.product_cat-body-repair-pl a img:hover { background-color: #B41CAB; }
+
+/* Face */
+.product_cat-face a  img { background-color: #FBE1E4;} /* Was #FAD9DE <- more pastel like - ECCDCE <- was a tad more dirty*/
+.product_cat-face a img:hover { background-color: #D2C4C4; }
+
+/* Face PL*/
+.product_cat-pielegnacja-twarzy a  img { background-color: #FBE1E4;} /* Was #FAD9DE <- more pastel like - ECCDCE <- was a tad more dirty*/
+.product_cat-pielegnacja-twarzy a img:hover { background-color: #D2C4C4; }
+/* Sets PL */
+.product_cat-zestawy-upominki a img { background-color: #FAEAF5;}
+.product_cat-zestawy-upominki a img:hover {background-color: #E3C1DF;}
+/* Sets */
+.product_cat-gifts-sets a img { background-color: #FAEAF5;}
+.product_cat-gifts-sets a img:hover {background-color: #E3C1DF;}
+
+/*Added By Bartosz Gajewski - Image background cockroaches cleaned out*/
+
+/*****  PL categories *********/
+.related.products  .product_cat-hands-and-feet-pl img { background-color: #A7E6E5!important;}
+.related.products  .product_cat-hands-and-feet-pl img:hover { background-color: #03B9B6!important;}
+.related.products  .product_cat-body-repair-pl img { background-color: #E0AAE0!important;}
+.related.products  .product_cat-body-repair-pl img:hover { background-color: #B41CAB!important;}
+.related.products  .product_cat-pielegnacja-twarzy img { background-color: #FBE1E4!important;}
+.related.products  .product_cat-pielegnacja-twarzy img:hover { background-color: #D2C4C4!important;}
+.related.products  .product_cat-body-maintenance-pl img { background-color: #FDC9AA;}
+.related.products  .product_cat-body-maintenance-pl img:hover { background-color: #FC6C12;}
+/*****  EN categories *********/
+.related.products  .product_cat-hands-and-feet img { background-color: #A7E6E5!important;}
+.related.products  .product_cat-hands-and-feet img:hover { background-color: #03B9B6!important;}
+.related.products  .product_cat-body-repair img { background-color: #E0AAE0!important;}
+.related.products  .product_cat-body-repair img:hover { background-color: #B41CAB!important;}
+.related.products  .product_cat-face img { background-color: #FBE1E4!important;}
+.related.products  .product_cat-face img:hover { background-color: #D2C4C4!important;}
+.related.products  .product_cat-body-maintenance img { background-color: #FDC9AA;}
+.related.products  .product_cat-body-maintenance img:hover { background-color: #FC6C12;}
+/*****  Beauty Ritual *********/
+.related.products  .post-17606 a img { background-color: #F1FADF;}
+.related.products  .post-17606 a img:hover { background-color: #D6EA8B;}
+.related.products  .post-17607 a img { background-color: #F1FADF;}
+.related.products  .post-17607 a img:hover { background-color: #D6EA8B;}
+.related.products  .post-17618 a img { background-color: #EDEAF5;}
+.related.products  .post-17618 a img:hover { background-color: #C7B6E2;}
+.related.products  .post-17619 a img { background-color: #EDEAF5;}
+.related.products  .post-17619 a img:hover { background-color: #C7B6E2;}
+.related.products  .post-17600 a img { background-color: #FAEAF6;}
+.related.products  .post-17600 a img:hover { background-color: #EFBBE1;}
+.related.products  .post-17601 a img { background-color: #FAEAF6;}
+.related.products  .post-17601 a img:hover { background-color: #EFBBE1;}
+.related.products  .post-17624  a img { background-color: #E4F7F5;}
+.related.products  .post-17624  a img:hover { background-color: #ACE1D6;}
+.related.products  .post-17625  a img { background-color: #E4F7F5;}
+.related.products  .post-17625  a img:hover { background-color: #ACE1D6;}
+.related.products  .post-17612 a img { background-color: #EDF2F5;}
+.related.products  .post-17612 a img:hover { background-color: #CAD1DA;}
+.related.products  .post-17613 a img { background-color: #EDF2F5; }
+.related.products  .post-17613 a img:hover { background-color: #CAD1DA; }
+
+/*********/
+
+/*Added By Bartosz Gajewski - Currency symbol lowercase*/
+.woocommerce-Price-currencySymbol {text-transform: lowercase;}
+
+
+ /*Added By Bartosz Gajewski - Quantity to PL - TEST*/
+  
+ .quantity__label:lang(pl){
+	visibility: hidden;
+	position: relative;
+}
+ .quantity__label:lang(pl):before {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "Ilość";
+}
+   /******************/
+
+/*Added By Bartosz Gajewski - Hidden "Excluding TAX and shipping" text*/
+.cart-subtotal__excl-clause{
+display:none;
+}
+
+/*Added By Bartosz Gajewski - Payment methods translated to PL*/
+
+.woocommerce-checkout-payment:lang(pl) h2{
+	visibility: hidden;
+	position: relative;
+}
+
+.woocommerce-checkout-payment:lang(pl) h2:before{
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "Metody płatności";}
+
+/*Added By Bartosz Gajewski - Login and Sign In buttons fixed - PL*/
+
+@media (min-width: 600px){
+.page-id-16883 #customer_login [type="submit"]{
+margin-left: 215px;}
+}
+
+.page-id-16883 #customer_login [type="submit"]{
+	width: 160px !important;
+}
+
+@media (min-width: 600px){
+.page-id-17179 #customer_login [type="submit"]{
+margin-left: 215px;}
+}
+
+.page-id-17179 #customer_login [type="submit"]{
+	width: 160px !important;
+        margin-top: 10px;
+}
+
+/*Added By Bartosz Gajewski - Change main product image background to white*/
+.woocommerce-product-gallery__image img { background-color: #FFFFFF !important;}
+
+/*Added By Bartosz Gajewski - zoomed product image display changed to white overlay*/
+.pp_overlay { background-color: #FFFFFF !important;}
+.pp_overlay {opacity: .9!important;}
+.pp_next:after {color: #000 !important;}
+.pp_previous:after {color: #000 !important}
+.pp_arrow_previous:after {color: #000 !important;}
+.pp_arrow_next:after {color: #000 !important;}
+.pp_close:after {color: #000 !important;}
+.currentTextHolder {color: #000 !important;}
+#pp_full_res {background-color: #FFF !important;}
+
+/*Added By Bartosz Gajewski - Language switch fixed*/
+.wpml-ls-flag {box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);}
+.wpml-ls-display {color: #000;}
+
+/*.wpml-ls-current-language {position: relative !important; left: -22px;}
+.wpml-ls-last-item {position: relative !important; left: 22px;}*/
+
+/*#nav-menu-item-wpml-ls-212-pl {position: relative !important; left: -22px;}
+#nav-menu-item-wpml-ls-212-en {position: relative !important; left: 22px;}*/
+.page-id-15252 #nav-menu-item-wpml-ls-212-pl {position: relative !important; left: 22px;}
+.page-id-16905 #nav-menu-item-wpml-ls-212-en {position: relative !important; left: 22px;}
+/*
+#nav-menu-item-wpml-ls-212-pl span{position: relative !important; left: -22px;}
+#nav-menu-item-wpml-ls-212-pl img{position: relative !important; left: -22px;}
+#nav-menu-item-wpml-ls-212-en {position: relative !important; left: 22px;}*/
+
+
+
+/*Added by Bartosz Gajewski - adjusted category display*/
+.widget.woocommerce.widget_product_categories h5 {display: none;}
+.woocommerce.widget_product_categories h5 {display: none;}
+.woocommerce.widget_product_categories li {font-size:15px;}
+.woocommerce.widget_product_categories .current-cat-parent, .current-cat, .cat-parent a{font-size:17px !important;color:#000000 !important;padding: 5px;}
+.woocommerce.widget_product_categories .current-cat-parent, .current-cat, .cat-parent .children a {font-size:13px!important;font-family:verlag-light!important;font-weight:400;color:#000000!important;}
+.woocommerce.widget_product_categories .current-cat-parent, .current-cat, .cat-parent .children li {margin-bottom: 6px!important;}
+.woocommerce.widget_product_categories .cat-item.cat-item-82.current-cat.cat-parent {margin-bottom: 20px!important;}
+.woocommerce.widget_product_categories .cat-item.cat-item-83.current-cat.cat-parent {margin-bottom: 20px!important;}
+.woocommerce.widget_product_categories .cat-item.cat-item-201.current-cat.cat-parent {margin-bottom: 20px!important;}
+.woocommerce.widget_product_categories .cat-item.cat-item-303.current-cat.cat-parent {margin-bottom: 20px!important;}
+.woocommerce.widget_product_categories .cat-item.cat-item-304.current-cat a{font-size:17px !important;color:#000000 !important;}
+.product-categories.product-categories.product-categories .children {padding-left: 5px!important;}
+
+@media only screen and (max-width: 600px) {.woocommerce-page .content .container .column1 {display: none;}}
+
+/*Added by Bartosz Gajewski - mobile menu colors changed */
+.mobile_menu a {color:black!important;}
+
+/*Added by Bartosz Gajewski - Body product categories in left sidebar colored*/
+/**********En**********/
+.woocommerce.widget_product_categories .cat-item-326 a {color: #F4E4B3!important;}
+.woocommerce.widget_product_categories .cat-item-174 a {color: #FC6C12!important;}
+.woocommerce.widget_product_categories .cat-item-175 a {color: #B41CAB!important;}
+.woocommerce.widget_product_categories .cat-item-173 a {color: #03B9B6!important;}
+
+/**********PL**********/
+.woocommerce.widget_product_categories .cat-item-327 a {color: #F4E4B3!important;}
+.woocommerce.widget_product_categories .cat-item-220 a {color: #FC6C12!important;}
+.woocommerce.widget_product_categories .cat-item-213 a {color: #B41CAB!important;}
+.woocommerce.widget_product_categories .cat-item-203 a {color: #03B9B6!important;}
+
+/*Added by Bartosz Gajewski - Payment methods fixed*/
+
+.woocommerce-checkout-payment label{
+  text-transform: uppercase;
+  margin-left: -20px!important;
+}
+
+.woocommerce-form__label.woocommerce-form__label-for-checkbox{
+  margin-left:0px!important;
+}
+
+.input-radio {visibility: hidden;position: absolute;float: right;}
+
+.payment_fakeradio {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: 1px solid;
+  margin-right: 10px;
+  overflow: hidden;
+  opacity: 1;
+  float: right;
+}
+
+.payment_fakeradio:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    width: 12px;
+    height: 12px;
+    background: black;
+    opacity: 0;
+    transition: all 0.25s;
+    float:left;
+}
+
+input:checked + .payment_fakeradio::after{
+  opacity:1;
+}
+
+.woocommerce #payment ul.payment_methods li {
+    padding: 10px 20px;
+    border: 0px;
+    border-bottom: 1px solid #000000;
+}
+
+/*Added by Bartosz Gajewski - Delated password from form in checkout page*/
+
+#woocommerce-account-fields.woocommerce-account-fields{
+  display:none;
+}
+
+/*Added by Bartosz Gajewski - Fixed display of payment methods */
+.wc_payment_method.payment_method_Dotpay_blik img{
+  margin-bottom: 2px!important;
+}
+.wc_payment_method.payment_method_dotpay img{
+  margin-bottom: 5px!important;
+}
+.wc_payment_method.payment_method_Dotpay_cc img{
+  margin-bottom: 0px!important;
+}
+@media (min-width: 1000px){
+ #order_review{width: 35%!important;}
+}
+
+.wc_payment_method.payment_method_Dotpay_blik > label:lang(pl):before{
+  content: "Kod"!important;
+}
+
+ .payment_method_paypal span{margin-top: 15px;}
+ .payment_method_Dotpay_blik span{margin-top: 10px;}
+ .payment_method_dotpay span{margin-top: 7px;}
+
+@media only screen and (max-width: 480px){
+  .payment_method_paypal a{display: none;}
+}
+
+/*Added by Bartosz Gajewski - Fixed display of checkout login button and lost password text*/
+
+.woocommerce input[type=submit]{
+    border: 0px;
+    border-bottom: 1px solid #303030;
+    font-family: verlag-light!important;
+    border-radius: 0px;  
+}
+.woocommerce form.check-login .lost_password{
+  padding-top: 10px;
+}
+
+
+
+/*Added by Bartosz Gajewski - Fixed display of "accept privacy policy" in registration form (Only Desktop) */
+
+label[for=privacy-policy-consent]{
+  text-transform: uppercase;
+  font-size:13px;
+ }
+
+#privacy-policy-consent{
+  margin-top: 7px;
+}
+
+#privacy-policy-consent{
+  max-width: 50px!important;}
+
+label[for=privacy-policy-consent]:lang(en){
+  visibility: hidden;
+}
+label[for=privacy-policy-consent]:lang(en):before{
+  content: "I've read and accepted"!important;
+  visibility:visible;
+}
+label[for=privacy-policy-consent] a:lang(en):before{
+  content: "Privacy Policy"!important;
+  visibility: visible;
+  margin-left: -200px
+}
+
+/*Added by Bartosz Gajewski - order note display fixed */
+.x5review__footer .fee{
+  display: none;
+}
+#wc_checkout_add_ons_5_field label{
+  text-transform:uppercase;
+}
+#wc_checkout_add_ons_5_field label:lang(en){
+  visibility: hidden;
+}
+#wc_checkout_add_ons_5_field label:lang(en):before{
+  content: "Order notes"!important;
+  visibility:visible;
+}
+
+
+/*Added by Bartosz Gajewski - Tweak to my account address changes PL*/
+.page-id-16883 .woocommerce-MyAccount-content input {
+    width: auto!important;
+    border-radius:0px!important;
+    border-width:0px 0px 0px 0px;
+    border-bottom: 1px solid black!important;
+    font-size: 14px;
+    font-family: 'verlag-light';
+    font-weight: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all 0.25s;
+  }
+
+.page-id-16883 .woocommerce-MyAccount-content input.input-text {
+    width: auto!important;
+    max-width: 375px;
+	border-radius:0px!important;
+    border-width:0px!important;
+    border-bottom: 1px solid black!important;
+    font-size: 14px;
+    font-family: 'verlag-light';
+    font-weight: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all 0.25s;
+  }
+.page-id-16883 .woocommerce-MyAccount-content .select2 {max-width:404px;font-size:13px;}
+.page-id-16883 .woocommerce-MyAccount-content .select2-selection__rendered {margin-left:15px;}
+
+.page-id-16883 .woocommerce-MyAccount-content input.button {
+    width: auto!important;
+	border-radius:0px!important;
+    border: 1px solid black!important;
+    font-size: 14px;
+    font-family: 'verlag-light';
+    font-weight: normal;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all 0.25s;
+
+}
+.form-row {display: flex;flex-direction: column;
+    @include respond-to(s) {align-items: flex-start;}}
+
+
+/*Added by Bartosz Gajewski - fixed display of MyAccount buttons*/
+.page-id-16883 .woocommerce-MyAccount-content button{
+  float: left!important;
+}
+.page-id-8 .woocommerce-MyAccount-content button{
+  float: left!important;
+}
+
+.gdpr-add-to-deletion-requests input[type="submit"]:hover {
+    color: #f4524d;
+    border-color: #f4524d!important;}
+.gdpr-add-to-deletion-requests input[type="submit"]{  
+    width: auto;
+    height: 38px!important;
+    line-height: 38px!important;
+    padding: 0 23px!important;
+    border: 1px solid #303030!important;
+    font-size: 13px!important;
+    color: #303030;
+    font-family: Raleway,sans-serif!important;
+    font-weight: 700!important;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+
+/*Added by Bartosz Gajewski - fixed display of GDPR plugin*/
+.gdpr *{
+  font-family:verlag-light!important;
+  font-weight: 400!important;
+  color: black!important;
+  background-color: white;
+}
+
+.gdpr.gdpr-privacy-bar{
+  background-color: white;
+  font-family: verlag-light!important;
+}
+
+  
+.gdpr.gdpr-privacy-preferences .gdpr-wrapper form>header .gdpr-box-title h3, .gdpr.gdpr-general-confirmation .gdpr-wrapper form>header .gdpr-box-title h3{
+  color:black!important;
+}
+
+.gdpr input[type="submit"]{
+
+  text-shadow: none!important;
+  border-color: black;
+  box-shadow: none!important;
+  text-transform: uppercase!important;
+  border-color: black!important;
+  border-radius: unset!important;
+  font-weight: 700!important;
+}
+
+
+.gdpr input[type="submit"]:hover{
+  cursor: pointer!important;}
+
+.gdpr.gdpr-privacy-bar .gdpr-preferences{
+  text-decoration: none;
+  text-transform: uppercase!important;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-agreement{
+  border-radius: unset;
+  text-transform: uppercase!important;
+  text-shadow: none;
+  box-shadow: none;
+  border-color: black;
+  font-weight:700!important;
+}
+.gdpr.gdpr-privacy-bar .gdpr-agreement:hover:before{
+  color: black;
+  border-color: black!important;
+}
+.gdpr.gdpr-privacy-bar .gdpr-agreement:hover{
+  border-color: black!important;
+}
+.gdpr.gdpr-privacy-bar .gdpr-agreement:before{
+  border-color: black;
+ -webkit-box-shadow: none;
+ border-top-left-radius: unset;
+ border-bottom-left-radius: unset;
+}
+.gdpr.gdpr-privacy-bar .gdpr-agreement:focus{
+  border-color: black!important;
+  box-shadow: none!important;
+}
+.gdpr.gdpr-privacy-bar .gdpr-agreement:hover{
+  cursor: pointer;
+}
+.gdpr.gdpr-privacy-bar .gdpr-preferences:hover{
+  cursor: pointer;
+  color: #03b9b6!important;
+}
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content {
+  text-align: justify;
+  padding-right: 10px!important;
+}
+.gdpr.gdpr-privacy-bar .gdpr-wrapper p{
+  font-size: 12px;
+}
+
+@media screen and (max-device-width: 680px){.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content{
+      padding-bottom: 0px;
+}
+
+@media screen and (max-width: 680px){
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right button:first-of-type {
+    margin: 0;}}
+}
+.gdpr-cookie-title p{
+  visibility: hidden;
+}
+.gdpr-cookie-title p{
+  content: "Polityka prywatności"!important;
+  visibility: visible;
+}
+.gdpr-switch .gdpr-slider {
+    background-color: #ccc!important;
+}
+
+.gdpr-switch input:checked+.gdpr-slider {
+    background-color: #00b9eb!important;
+}
+
+.gdpr-box-title {background-color:white!important;}
+.gdpr-tabs {background-color:white!important;}
+.gdpr-subtabs {background-color:white!important;}
+.gdpr-tab-button {background-color:white!important;}
+.gdpr-policies a {background-color:white!important;}
+.gdpr input {background-color:white!important;}
+.gdpr-content {background-color:white!important;}
+.gdpr-cookies span {background-color:unset;}
+.gdpr-agreement {background-color:white!important;}
+
+
+/*Added by Bartosz Gajewski - fixed display Personal Data Menagement Tab in My Account Menu*/
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--my-custom-endpoint a:lang(pl){
+  visibility: hidden;
+}
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--my-custom-endpoint a:lang(pl):before{
+  content: "dane osobowe"!important;
+  visibility:visible;
+}
+
+.gdpr-export-data-form input[type="submit"]{
+  border: 1px solid black!important;
+}
+.gdpr-export-data-form input[type="submit"]:hover {
+    color: #00a2ab;
+    border-color: #00a2ab!important;}
+
+.gdpr-export-data-form{
+  width: fit-content;
+ /* margin-top: 80px!important;*/
+}
+.woocommerce-MyAccount-content button:hover {
+    color: #00a2ab;
+    border-color: #00a2ab!important;}
+.woocommerce-MyAccount-content button{  
+    width: auto;
+    height: 38px!important;
+    line-height: 38px!important;
+    padding: 0 23px!important;
+    border: 1px solid #303030!important;
+    font-size: 13px!important;
+    color: #303030;
+    font-family: verlag-light;
+    cursor: pointer;
+    text-transform: uppercase!important;
+    background-color: white;
+    font-size: 14px!important;
+    font-weight: normal;
+    padding-left: 0px!important;
+}
+.woocommerce-MyAccount-content .gdpr-preferences:lang(pl){
+  visibility:hidden;
+}
+.woocommerce-MyAccount-content .gdpr-preferences:lang(pl):before{
+  content: "Ustawienia prywatności"!important;
+  visibility:visible;
+  border: 1px solid black!important;
+  width: auto!important; 
+  line-height: 35px!important;
+  height: 38px!important;
+  padding: 9px 26px;
+  letter-spacing: 1px;
+}
+.woocommerce-MyAccount-content button:lang(pl):hover:before{
+  border-color: #00a2ab!important;
+}
+/*Added by Bartosz Gajewski - fixed display of quantity and add to bag button in 1200 - 1001px*/
+@media screen and (max-width: 1200px) and (min-width: 1001px){.summary.entry-summary .cart{
+float: left;
+padding-left: 5px;}
+}
+/*Added by Bartosz Gajewski - fixed mobile menu display - erased Alba1913*/
+#mobile-menu-item-17661{
+  display: none;
+}
+/*Added by Bartosz Gajewski - mobile - change language text fixed*/
+.wpml-ls-statics-footer.wpml-ls.wpml-ls-touch-device.wpml-ls-legacy-list-horizontal{
+  text-transform: uppercase;
+}
+/*Added by Bartosz Gajewski - mobile menu display fixed*/
+.mobile_menu ul li h3{
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+}
+nav.mobile_menu ul li ul li{
+  margin: 0px;
+}
+
+/*Added by Bartosz Gajewski - single image description text justified*/
+.single-product .q_tabs.horizontal.center .tabs-container .tab-content p {
+    text-align: justify !important;}
+
+/*Added by Bartosz Gajewski - fixed display of phone number in contact form */
+.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validates-as-number{
+  font-family: verdana!important;
+}
+/*Added by Bartosz Gajewski - Local pickup display fixed */
+#shipping_option{
+    max-width: 150px;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    -webkit-appearance: none !important;
+    font-size: 14px;
+    font-family: verlag-light;
+    border-width: 1px !important;
+    border-color: #000;
+    padding: 5px 15px 1px 15px;
+    border-radius: 0px;
+    float: right;
+}
+/*Added by Bartosz Gajewski - store notice display adjustments */
+.woocommerce-store-notice.demo_store{
+  background-color: white;
+  font-family: roboto!important;
+  padding: 20px;
+  width: 100%!important;
+  margin-left: unset!important;
+  text-transform:uppercase;}
+/*Added by Bartosz Gajewski - My Account display adjustments*/
+.woocommerce-message.woocommerce-message--info.woocommerce-Message.woocommerce-Message--info.woocommerce-info{
+  color:black;
+  background-color: white!important;
+  border: none;
+}
+.woocommerce-MyAccount-content .woocommerce-Button.button[name="save_account_details"]{
+ padding-left: 23px!important;
+}
+.gdpr-request-form.gdpr-export-data-form input{
+  margin-top: 20px;
+}
+.woocommerce-MyAccount-content .gdpr-preferences:lang(en){
+  padding-left:23px!important;
+}
+
+/*Added by Bartosz Gajewski - Blog title display fixed on mobile*/
+.blog-top .widget_recent_entries ul li{
+  width:100%!important;
+}
+/*Added by Bartosz Gajewski - Order notes display fixed*/
+#wc_checkout_add_ons_5{
+  width: 96%;
+}
+
+/*Added by Bartosz Gajewski - fixed Acceptance in Contact Forms */
+#personal-data-acceptance-form label{
+  display: block;
+}
+#personal-data-acceptance-form input{
+  min-width: 15px;
+  height: 15px!important;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+   appearance: checkbox;
+}
+#personal-data-acceptance-form-en label{
+  display: block;
+}
+#personal-data-acceptance-form-en input{
+  min-width: 15px;
+  height: 15px!important;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+   appearance: checkbox;
+}
+
+#personal-data-acceptance-form label{
+  display: block;
+}
+#personal-data-acceptance-form input{
+  min-width: 15px;
+  height: 15px!important;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+   appearance: checkbox;
+}
+
+#personal-data-acceptance-form-wholesale label{
+  display: block;
+}
+#personal-data-acceptance-form-wholesale input{
+  min-width: 15px;
+  height: 15px!important;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+   appearance: checkbox;
+}
+/*Added by Bartosz Gajewski - fixed display of Alba1913 motto
+.textwidget.custom-html-widget h1{
+  font-weight: 400;
+}*/
+
+.wpcf7-response-output{
+  color: black!important;
+  background-color: white!important;
+  text-align:left!important;
+}
+
+.textwidget.custom-html-widget .healthyisbeautiful:lang(pl){
+  margin-top: -10px;
+}
+/*Added by Bartosz Gajewski - fixed display of privacy policy in Contact Forms */
+.wpb_text_column.wpb_content_element.contact-consent-privacy-policy p{
+  clear: both;
+}
+.contact-consent-privacy-policy{
+  font-size: 12px;
+  font-weight: 200!important;
+  line-height: 14px;
+}
+/*Added by Bartosz Gajewski - fixed display of h1 on main page */
+.wpb_text_column.wpb_content_element.instagram-alba1913-h1 a:hover{
+ color: #0bb1c1 !important;
+}
+.wpb_text_column.wpb_content_element.instagram-alba1913-h1 a{
+  font-weight: 400;
+}
+
+.form-row.form-row-wide.create-account .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox span:lang(pl){
+visibility: hidden;
+}
+.form-row.form-row-wide.create-account .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox span:lang(pl)::before{
+ content: "Zapisz się do naszego newslettera";
+ visibility: visible;
+}
+.form-row.form-row-wide.create-account .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox #mailchimp_woocommerce_newsletter{
+  width: 50px!important;
+}
+/*Added by Bartosz Gajewski - aligned text in few pages */
+.page-id-17091 .about-post p {
+    text-align: justify;
+}
+
+#tab-description.tab-content p{
+  text-align: justify!important;
+}
+
+.page-id-17148 .wpb_column.vc_column_container.vc_col-sm-9 .wpb_wrapper p{
+ text-align:justify;
+}
+.page-id-17150 .wpb_column.vc_column_container.vc_col-sm-9 .wpb_wrapper p{
+ text-align:justify;
+}
+.page-id-17152 .wpb_column.vc_column_container.vc_col-sm-9 .wpb_wrapper p{
+ text-align:justify;
+}
+
+/*Added by Bartosz Gajewski - Galenic Hand Cream options fixed */
+.postid-517.single-product .summary.entry-summary .cart{
+  display: inline-block;
+  float: left!important;
+}
+.postid-517.woocommerce div.product .summary table.variations{
+  font-family: verlag-book;
+}
+
+.postid-517.single-product .price{
+  display: none;
+}
+
+.postid-517.single-product .variations_form.cart .price{
+  display: block;
+  margin-top: 0px!important;
+}
+
+.postid-517 .single_add_to_cart_button.button.alt{
+  display: block;
+    float: right!important;
+    background: #000;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 5px!important;
+    font-family: verlag;
+}
+
+.woocommerce-Price-amount.amount{
+  /* position: absolute; */
+}
+
+.woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled{
+  margin-left: 60px;
+}
+
+/*PL */
+.postid-17038.single-product .summary.entry-summary .cart{
+  display: inline-block;
+  float: left!important;
+}
+.postid-17038.woocommerce div.product .summary table.variations{
+  font-family: verlag-book;
+}
+
+.postid-17038.single-product .price{
+  display: none;
+}
+
+.postid-17038.single-product .variations_form.cart .price{
+  display: block;
+  margin-top: 0px!important;
+}
+
+.postid-17038 .single_add_to_cart_button.button.alt{
+  display: block;
+    float: right!important;
+    background: #000;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 5px!important;
+    font-family: verlag;
+}
+
+.clearfix .variations_form.cart{
+  width: 100%!important;
+}
+.single_variation_wrap .single_add_to_cart_button{
+  padding: 5px 18px 5px 18px!important;
+  height: 38px!important;
+  margin-top: 0px!important;
+}
+@media only screen and (min-width: 780px){
+.postid-17038 .quantity.buttons_added{
+  margin-left: 65px!important;
+}
+}
+
+.woocommerce-Price-amount.amount{
+  /* position: absolute; */
+}
+
+.woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled{
+  margin-left: 60px;
+}
+/*Added by Bartosz Gajewski - menu active object bolded */
+nav.main_menu ul li.active a {
+    color: black!important;
+    font-weight: 1000;
+}
+
+.gdpr-privacy-bar .gdpr-content p:lang(en){
+  visibility: hidden;
+}
+.gdpr-privacy-bar .gdpr-content p:lang(en)::before{
+  content: "We protect your personal information with the utmost care. We encourage you to read our updated Privacy Policy.";
+  visibility:visible!important;
+}
+/*Added by Bartosz Gajewski - footer left menu display fixed*/
+#nav_menu-4.widget.widget_nav_menu{
+      margin-top: -30px;
+}
+/*Added by Bartosz Gajewski - top bar display fixed
+.logo_wrapper .q_logo a{
+  height: 108px!important;
+}*/
+.widget_text.header-widget.widget_custom_html.header-left-widget{
+  margin-top: -12px;
+}
+
+.header_top.clearfix .container .container_inner.clearfix .right{
+  margin-top: -12px;
+}
+/*  commented by kuba rychlicki
+@media(min-width: 1000px){
+.header_top_bottom_holder .header_bottom.clearfix{
+  height: 194px!important;}
+}*/
+@media(min-width: 1000px){
+/* added by kuba rychlicki - temporary too be checked
+.header_top_bottom_holder .header_bottom.clearfix{
+  height: 194px!important;}*/
+.header_top_bottom_holder .header_bottom.clearfix {
+				height: auto;
+				padding-bottom: 10px;}
+header.centered_logo.centered_logo_animate .q_logo img, header:not(.centered_logo) .q_logo img {
+	height: 108px!important;
+}
+header.centered_logo.sticky .q_logo img{
+  height: 70px!important;}
+
+.header_top_bottom_holder .header_top.clearfix{
+  height:1px;
+}
+/*.logo_wrapper{
+  margin-top: 25px!important;}
+}*/
+/*Added by Bartosz Gajewski - contact form display fixed*/
+.custom-form form textarea[name="textarea-127"]{
+  border: none!important;
+  height: 20px;
+}
+.wpcf7-form.cf7_custom_style_1 label{
+  display: none;
+}
+/*Added by Bartosz Gajewski - breadcrumbs on cart page erased*/
+.page.page-id-16881 #breadcrumbs{
+  visibility:hidden;
+}
+.page.page-id-6 #breadcrumbs{
+  visibility:hidden;
+}
