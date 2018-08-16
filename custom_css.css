@@ -1964,3 +1964,13 @@ header.centered_logo.sticky .q_logo img{
 .page.page-id-6 #breadcrumbs{
   visibility:hidden;
 }
+/*Added by Bartosz Gajewski - fixed display of debugger main page elements - test*/
+.seo-main-text-block{
+  text-align: justify;
+}
+.seo-main-page-h1 h1{
+  font-size: 30px!important;
+}
+.wpb_text_column.wpb_content_element.seo-main-text-block{
+  color: #b39684;
+}
