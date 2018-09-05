@@ -1,3 +1,10 @@
+/*Added by Bartosz Gajewski - fixed display of main page elements - test - Modified by Kuba Rychlicki*/
+
+
+#mainpage_seo_ads_mobile {text-align: justify!important;}
+.seo-main-text-block{text-align: left!important;}
+.seo-main-page-h1 h1{text-align: left!important;color: #b39684;}	
+.wpb_text_column.wpb_content_element.seo-main-text-block{color: #000;}
 
 /*Quantity + add to bag final Tweaks + Apple Pay Cockroaches - Added by Kuba Rychlicki*/
 
@@ -1963,14 +1970,4 @@ header.centered_logo.sticky .q_logo img{
 }
 .page.page-id-6 #breadcrumbs{
   visibility:hidden;
-}
-/*Added by Bartosz Gajewski - fixed display of debugger main page elements - test*/
-.seo-main-text-block{
-  text-align: justify;
-}
-.seo-main-page-h1 h1{
-  font-size: 30px!important;
-}
-.wpb_text_column.wpb_content_element.seo-main-text-block{
-  color: #b39684;
 }
