@@ -1971,3 +1971,6 @@ header.centered_logo.sticky .q_logo img{
 .page.page-id-6 #breadcrumbs{
   visibility:hidden;
 }
+.page.page-id-16882 p#breadcrumbs{
+  visibility: hidden;
+}
