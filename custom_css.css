@@ -1978,3 +1978,11 @@ header.centered_logo.sticky .q_logo img{
 .term-description{
 padding-bottom: 30px;
 }
+/*Added by Bartosz Gajewski - healthy is beatiful adjusted in english version*/
+.widget_text.header-widget.widget_custom_html.header-left-widget .healthyisbeautiful:lang(en){
+  font-size:26px;
+  top: -3px;
+}
+.widget_text.header-widget.widget_custom_html.header-left-widget .healthy:lang(en){
+  font-family: 'verlag-light' !important;
+}
