@@ -1986,3 +1986,19 @@ padding-bottom: 30px;
 .widget_text.header-widget.widget_custom_html.header-left-widget .healthy:lang(en){
   font-family: 'verlag-light' !important;
 }
+	
+/*Added by Bartosz Gajewski - sale sign deleted*/
+.single-onsale.onsale-outter{
+  display: none;
+}
+.onsale.onsale-outter{
+  display: none;
+}
+/*Added by Bartosz Gajewski - contact form submit button display fixed*/
+.wpcf7-form-control.wpcf7-submit{
+  margin-top: 10px!important;
+}
+input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover{
+  border-color: black!important;
+  color: black!important;
+}
