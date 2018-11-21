@@ -1,4 +1,5 @@
-/*Added by Bartosz Gajewski - fixed display of main page elements - test - Modified by Kuba Rychlicki*/
+
+/*Added by B - fixed display of main page elements - test - Modified by K*/
 
 
 #mainpage_seo_ads_mobile {text-align: justify!important;}
@@ -6,7 +7,7 @@
 .seo-main-page-h1 h1{text-align: left!important;color: #b39684;}	
 .wpb_text_column.wpb_content_element.seo-main-text-block{color: #000;}
 
-/*Quantity + add to bag final Tweaks + Apple Pay Cockroaches - Added by Kuba Rychlicki*/
+/*Quantity + add to bag final Tweaks + Apple Pay Cockroaches - Added by K*/
 
 .qode-single-product-summary .summary .clearfix .cart .quantity.buttons_added .screen-reader-text {display:none!important;}
 
@@ -42,7 +43,7 @@
 
 #wc-stripe-payment-request-button-separator {display:none!important;}
 
-/*Added by Bartosz Gajewski - footer with company contact text display fixed*/
+/*Added by B - footer with company contact text display fixed*/
 .footer_top .column4.footer_col4 .column_inner .widget{
   float: none!important;
 }
@@ -53,13 +54,13 @@
   margin-top: 50px;
 }
 
-/*Added by Bartosz Gajewski - mobile menu hamburger display fixed*/
+/*Added by B - mobile menu hamburger display fixed*/
 .mobile_menu_button span{
   font-size: 30px!important;
 }
 
 
-/*Added by Kuba Rychlicki - Price/Quantity/Add to Bag button tweaks (1000px bug not taken care of !)*/
+/*Added by K - Price/Quantity/Add to Bag button tweaks (1000px bug not taken care of !)*/
 
 .price {display: inline-block;float:left;padding:5px;margin:10px 0px 0px 0px!important;}
 .in-stock{display: none;}
@@ -72,7 +73,7 @@
 .woocommerce div.product .cart .quantity {margin-right: 0px;}
 .woocommerce div.product .cart .quantity__label {margin-right: -10px;}
 
-/*Added by Kuba Rychlicki - Language menu Cockroaches*/
+/*Added by K - Language menu Cockroaches*/
 #nav-menu-item-17661{display:none;}
 #nav-menu-item-17668{display:none;}
 #nav-menu-item-17122 a {margin:0px!important;padding:0px!important;top:1px;}
@@ -103,7 +104,7 @@ header.centered_logo nav.main_menu, header.centered_logo nav.main_menu.left, hea
 .sticky_animate #nav-menu-item-16875 {bottom:0px;}
 .sticky_animate .wpml-ls-item-toggle:lang(en) {margin-bottom:3px;bottom:unset!important;}
 
-/*Added by Kuba Rychlicki - Testimonials tweaks*/
+/*Added by K - Testimonials tweaks*/
 .testimonials_holder.clearfix.dark {
 	max-height: 100px;
 	overflow: hidden;
@@ -123,19 +124,19 @@ p.testimonial_author:after {content: unset;}
 .testimonials_holder .flex-direction-nav {display: none;}
 
 
-/*Added By Kuba Rychlicki - Polish Category Names Bug - Zestawy i Upominki edited by Bartosz Gajewski*/
+/*Added By K - Polish Category Names Bug - Zestawy i Upominki edited by B*/
 .single-product .product_cat-pielegnacja-ciala h4:after {content:"pielęgnacja ciała"!important;}
 .single-product .product_cat-pielegnacja-twarzy h4:after {content:"pielęgnacja twarzy"!important;}
 .single-product.postid-17000 .product_cat-zestawy-upominki h4:after {content:"zestawy & upominki"!important;}
 .single-product .product_cat-aromatherapy-pl h4:after {content:"aromaterapia"!important;}
 
-/*Added By Kuba Rychlicki - Moje konto adjustment */
+/*Added By K - Moje konto adjustment */
 
 .logged-in #nav-menu-item-17122 a::before {content:"Moje Konto"!important;}
 .logged-in #mobile-menu-item-17122 a::before {content:"Moje Konto"!important;}
 
 
-/*Added by  Kuba Rychlicki - undisplay arrow where invisible*/
+/*Added by  K - undisplay arrow where invisible*/
 
 .mobile_menu > ul > li > ul > li >.sub_menu .mobile_arrow{
         display: none!important;
@@ -212,7 +213,7 @@ label[for=mailchimp_woocommerce_newsletter].checkbox {display:inline!important;p
  .page-id-16199 #inci-exp-col-a {width: 50%;}   
 }
 
-/*Inci Explainer adjustments PL version Added by Bartosz Gajewski*/
+/*Inci Explainer adjustments PL version Added by B*/
 
  .page-id-17140  #inci-exp-col {max-width: 70%;}
  .page-id-17140  #inci-exp-col-a {width: 30%;}
@@ -469,12 +470,12 @@ html, html a {
 /*Social media widget adjustment*/
 #social-media-widget { text-align: right;padding-top:10px;}
 
-/*added by Kuba Rychlicki - Changed to image banner  - removing caption*/
+/*added by K - Changed to image banner  - removing caption*/
 .nivo-caption {display: none!important;}
 .nivoSlider {box-shadow: 0 0px 0px 0 #ffffff!important;}
 .nivo-controlNav {display:none;}
 
-/*Added by Kuba Rychlicki - Store Wide Notice tweaks - needs mobile check
+/*Added by K - Store Wide Notice tweaks - needs mobile check
 .woocommerce-store-notice {display:inline-block;float:right;position: fixed;
   bottom: 8px;
   z-index: 1000;
@@ -488,7 +489,6 @@ html, html a {
   font-size:17px;  
   letter-spacing:1px;
 }
-
 .woocommerce-store-notice a {
   padding-left: 25px;
   color: #FA8209;
@@ -506,7 +506,6 @@ html, html a {
  	font-style:italic;
     font-weight:600;
 }
-
 /*Removed Categories from mobile product list */
 @media only screen and (max-width: 600px) {
  .woocommerce-page .content .container .column1 {
@@ -514,11 +513,11 @@ html, html a {
         }
     }
 
-/*Added BY Kuba Ryhclicki -  Search results bug */
+/*Added BY K -  Search results bug */
 
 .search-results .single_add_to_cart_button.button.alt.qbutton {font-size:12px!important; padding-left:15px!important;padding-right:15px!important;}
 
-/*Added by Kuba rychlicki - Adjusted shopping bag color*/
+/*Added by K - Adjusted shopping bag color*/
 @media all {
     .shopping_cart_header .header_cart.cart_icon::before {
 {
@@ -526,7 +525,7 @@ html, html a {
     }
 }
 
-/*Added by Kuba Rychlicki - adjusted bag and search icon a few px down*/
+/*Added by K - adjusted bag and search icon a few px down*/
 
 @media all {
 header.sticky_animate .header_inner_right {
@@ -534,13 +533,13 @@ header.sticky_animate .header_inner_right {
 }
 }
 
-/*Added by Kuba Rychlicki - Adjusted position of background in "Grounded ..."*/
+/*Added by K - Adjusted position of background in "Grounded ..."*/
 
 .vc_custom_1502734304862 {
     background-position: 30% center!important;
 }
 
-/*Added by Kuba Rychlicki - changing from image to formatted text on healthy is beautiful logo - adjusted top widgets so they stay at the edges of the container*/
+/*Added by K - changing from image to formatted text on healthy is beautiful logo - adjusted top widgets so they stay at the edges of the container*/
 
 .right .inner {position: relative;right:5px;}
 .right .inner i.qode_icon_font_awesome.fa.fa-youtube-play {position:relative;bottom:4px;}
@@ -604,7 +603,7 @@ header.sticky_animate .header_inner_right {
      display:inline;
 }
 
-/*Added by Kuba Rychlicki - Emphasis on the add to bag button*/
+/*Added by K - Emphasis on the add to bag button*/
 .single_add_to_cart_button.button.alt.qbutton {
     display: block;
     background: #000;
@@ -617,8 +616,7 @@ header.sticky_animate .header_inner_right {
 }
 .single_add_to_cart_button.button.alt.qbutton:hover {color:#00a2ab;}
 
-/*Added by Kuba Rychlicki - Changed USA into flag + some minor adjustments - needs test if it's necessary
-
+/*Added by K - Changed USA into flag + some minor adjustments - needs test if it's necessary
 #nav-menu-item-15477 span {
     color:transparent;
     background-image: url('https://alba1913.com/wp-content/uploads/2017/05/Flag-USA.png');
@@ -631,8 +629,7 @@ header.sticky_animate .header_inner_right {
 #nav-menu-item-15598 span:hover {color:#00a2ab;!important}
 #nav-menu-item-15599 span:hover {background-image: none;color:#00a2ab;}
 
-/*Added by Bartosz Gajewski - Changed Polska into flag + some minor adjustments - needs test if it's necessary
-
+/*Added by B - Changed Polska into flag + some minor adjustments - needs test if it's necessary
 #nav-menu-item-17199 span {
     color: transparent;
     background-image: url('http://albathyment.com.pl/Alba1913PL/wp-content/uploads/2018/03/Flag-Polish.png');
@@ -645,7 +642,7 @@ header.sticky_animate .header_inner_right {
 #nav-menu-item-17201 span:hover {color:#00a2ab;!important}
 #nav-menu-item-17200 span:hover {background-image: none;color:#00a2ab;}
 
-/* Addded by Kuba Rychlicki - Product thumbnail on mobile cart */
+/* Addded by K - Product thumbnail on mobile cart */
 @media only screen and (max-width: 780px) {
 .x5cart__product-thumb img {
     width: 120px!important;
@@ -662,7 +659,7 @@ header.sticky_animate .header_inner_right {
     font-weight: 600;
 }
 
-/*Added by Kuba Rychlicki - Plus minus/arrows tweak*/
+/*Added by K - Plus minus/arrows tweak*/
 @media all {
 .plus {position: relative ;left:16px;}
 .minus {position: relative ;left:16px;}
@@ -683,31 +680,31 @@ header.sticky_animate .header_inner_right {
     }
 
 
-/*Added by Kuba Rychlicki - Tweak review title */
+/*Added by K - Tweak review title */
 @media all {
     .woocommerce #respond #reply-title, .woocommerce #reviews h2 {display:none;}
 }
-/*Added by Kuba rychlicki - Tweak review submit button*/
+/*Added by K - Tweak review submit button*/
 #submit {border-radius: 0px;
     border-width: 1px;
     font-family: verlag-light!important;
     font-weight: 400 !important;
     border-color:#322f31;
 }
-/*Added by Kuba Rychlicki - Tweak of quantity font size and color*/
+/*Added by K - Tweak of quantity font size and color*/
 @media all {.single-product .quantity__label
 {font-size: 16px;color: #322f31;letter-spacing: 0.7px;}}
 
-/*Added by kuba rychlicki - checktout in dropdown cart tweak*/
+/*Added by k - checktout in dropdown cart tweak*/
 
 .shopping_cart_dropdown .custom-checkout {position:relative; bottom:2px;float:left;}
 
-/*Added by Kuba Rychlicki - Tweak quantity arrows width */
+/*Added by K - Tweak quantity arrows width */
 
 .qty {position:relative;float:right;}
 .quantity__button-holder {min-width: 40px;}
 
-/*Added by Kuba Rychlicki - Tweak cart visible on resolution lower than 421*/
+/*Added by K - Tweak cart visible on resolution lower than 421*/
 @media only screen and (max-width: 421px) {
 .shopping_cart_outer{
 display: inline !important;
@@ -715,7 +712,7 @@ right: 5px;
 }
 }
 
-/*Added by Kuba Rychlicki - Tweak Total price in mobile cart*/
+/*Added by K - Tweak Total price in mobile cart*/
 
 @media only screen and (max-width: 782px) {
 .x5cart__product-subtotal {
@@ -723,7 +720,7 @@ right: 5px;
     margin-right: auto;
 }}
 
-/*Added by Kuba Rychlicki - Tweak to my account address changes*/
+/*Added by K - Tweak to my account address changes*/
 .page-id-8 .woocommerce-MyAccount-content input {
     width: auto!important;
 	border-radius:0px!important;
@@ -796,18 +793,18 @@ right: 5px;
     @include respond-to(s) {align-items: flex-start;}}
 
 
-/*Added by Kuba Rychlicki - Changed Country submenu width */
+/*Added by K - Changed Country submenu width */
 #nav-menu-item-15477 ul {width:10vw!important;}
 
-/*Added By Kuba Rychlicki - Changed Mark Styling */
+/*Added By K - Changed Mark Styling */
 mark {color:#000000;background-color:#F7CED6; padding:3px 4px 2px 4px;border-radius: 3px;}
 
-/*Added By Kuba Rychlicki - Changed Menu Styling */
+/*Added By K - Changed Menu Styling */
 /*Face Submenu*/
-#nav-menu-item-15638.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:#FA8029;} 
+#nav-menu-item-15638.submenu-cat > a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:#FA8029;} 
 #nav-menu-item-15638 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
 
-#nav-menu-item-16015.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;color:#FA8029;} 
+#nav-menu-item-16015.submenu-cat a { /*font-size:14px!important;  font-family:verlag-book!important; font-weight:500;*/color:#FA8029;} 
 #nav-menu-item-16015 .submenu-subcat a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
 
 /*Body Submenu*/
@@ -840,13 +837,13 @@ mark {color:#000000;background-color:#F7CED6; padding:3px 4px 2px 4px;border-rad
 #nav-menu-item-15477 .submenu-lang a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
 
 
-/*Added By Bartosz Gajewski - Changed Menu Styling PL*/
+/*Added By B - Changed Menu Styling PL*/
 /*Face Submenu*/
 #nav-menu-item-17055.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} 
 #nav-menu-item-17055 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
 #nav-menu-item-18140 .submenu-product a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;} 
 
-#nav-menu-item-17116.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} 
+/*#nav-menu-item-17116.submenu-cat a {font-size:14px!important;font-family:verlag-book!important;font-weight:500;} */
 #nav-menu-item-17116 .submenu-subcat a {font-size:13px!important;font-family:verlag-light!important;font-weight:500;color:black;}
 
 /*Body Submenu*/
@@ -893,19 +890,19 @@ mark {color:#000000;background-color:#F7CED6; padding:3px 4px 2px 4px;border-rad
 
 
 
-/*Added BY Kuba Rychlicki - Justify posts in about alba */
+/*Added BY K - Justify posts in about alba */
 
 @media all {.page-id-15302 .about-post p {text-align: justify;}}
 
-/*Added BY Kuba Rychlicki - Bold price was ugly*/
+/*Added BY K - Bold price was ugly*/
 
 .woocommerce-Price-amount.amount {font-family: verlag-bold!important;}
 
-/*Added BY Kuba Rychlicki - Image gallery prev/next arrow pic fix*/
+/*Added BY K - Image gallery prev/next arrow pic fix*/
 @media all {body a.pp_previous::after {left: 0px;}}
 @media all {body a.pp_next::after {right:0px;}}
 
-/*Added BY Kuba Rychlicki - Disco kit description disappearing fix*/
+/*Added BY K - Disco kit description disappearing fix*/
 .postid-15709 .description_tab.active a {
     pointer-events: none;
     cursor: default;
@@ -915,10 +912,10 @@ mark {color:#000000;background-color:#F7CED6; padding:3px 4px 2px 4px;border-rad
     cursor: default;
 }
 
-/*Added BY Kuba Rychlicki - Related products line height fix*/
+/*Added BY K - Related products line height fix*/
 #product-list .product-info, .related.products .product-info {margin-bottom: auto!important;}
 
-/*Added by Kuba Rychlicki - iPhone/iPad product page  bugs */
+/*Added by K - iPhone/iPad product page  bugs */
 
 @media only screen and (max-width: 782px) {
 .single-product div.product form.cart .quantity {
@@ -953,13 +950,13 @@ a.product-category.product-info {margin-bottom: auto;}
 a.product-category.product-info a {margin-bottom: auto;}
 }
 
-/*Added by Kuba Rychlicki - Changing font of Login and Register text on my account page*/
+/*Added by K - Changing font of Login and Register text on my account page*/
 .page-id-8 #customer_login h2{font-size:18px;font-family:verlag-book;text-transform:uppercase;font-weight:200;letter-spacing:1px;}
 
-/*Added by Kuba Rychlicki - Adding margin-top to philosophy vid to center */
+/*Added by K - Adding margin-top to philosophy vid to center */
 .page-id-15302 .philosophy-vid {display: block;margin-top:81px;}
 
-/*Added by Kuba Rychlicki - Hid the Post list @kursez on the main page and switched for blog carousel. this edits the arrows and titles
+/*Added by K - Hid the Post list @kursez on the main page and switched for blog carousel. this edits the arrows and titles
 .qode-blog-carousel-titled .qode-bct-title-holder * {color: #afafaf !important;}
 .qode-blog-carousel-titled .qode-bct-title-holder {
     position: relative;
@@ -980,15 +977,13 @@ a.product-category.product-info a {margin-bottom: auto;}
     margin-bottom: 8px;
     display: none;
 }
-
-
-/*Added BY Kuba Rychlicki -  Removing header and footer from coming soon page*/
+/*Added BY K -  Removing header and footer from coming soon page*/
 
 .page-id-16031 .header_top_bottom_holder{display: none;}
 .page-id-16031 .footer_top_holder{display: none;}
 .page-id-16031 .footer_bottom_holder{display: none;}
 
-/*Added by Kuba Rychlicki - Submenu items bold */
+/*Added by K - Submenu items bold */
 
 #menu-item-15625 span {font-family:verlag-bold!important;}
 #menu-item-15624 span {font-family:verlag-bold!important;}
@@ -1016,12 +1011,12 @@ a.product-category.product-info a {margin-bottom: auto;}
 .product_cat-hands-and-feet-pl a img:hover { background-color: #03B9B6; }
 
 /* Aromatherapy PL */
-.product_cat-aromatherapy-pl a img { background-color: #ECE4A7; }
-.product_cat-aromatherapy-pl a img:hover { background-color: #B19800; }
-
-/* Aromatherapy */
 .product_cat-aromatherapy a img { background-color: #ECE4A7; }
 .product_cat-aromatherapy a img:hover { background-color: #B19800; }
+
+/* Aromatherapy */
+.product_cat-aromaterapia a img { background-color: #ECE4A7; }
+.product_cat-aromaterapia a img:hover { background-color: #B19800; }
 
 /* Beauty Ritual*/
 /*GRAPEFRUT*/
@@ -1085,7 +1080,7 @@ a.product-category.product-info a {margin-bottom: auto;}
 .product_cat-gifts-sets a img { background-color: #FAEAF5;}
 .product_cat-gifts-sets a img:hover {background-color: #E3C1DF;}
 
-/*Added By Bartosz Gajewski - Image background cockroaches cleaned out*/
+/*Added By B - Image background cockroaches cleaned out*/
 
 /*****  PL categories *********/
 .related.products  .product_cat-hands-and-feet-pl img { background-color: #A7E6E5!important;}
@@ -1129,11 +1124,11 @@ a.product-category.product-info a {margin-bottom: auto;}
 
 /*********/
 
-/*Added By Bartosz Gajewski - Currency symbol lowercase*/
+/*Added By B - Currency symbol lowercase*/
 .woocommerce-Price-currencySymbol {text-transform: lowercase;}
 
 
- /*Added By Bartosz Gajewski - Quantity to PL - TEST*/
+ /*Added By B - Quantity to PL - TEST*/
   
  .quantity__label:lang(pl){
 	visibility: hidden;
@@ -1148,12 +1143,12 @@ a.product-category.product-info a {margin-bottom: auto;}
 }
    /******************/
 
-/*Added By Bartosz Gajewski - Hidden "Excluding TAX and shipping" text*/
+/*Added By B - Hidden "Excluding TAX and shipping" text*/
 .cart-subtotal__excl-clause{
 display:none;
 }
 
-/*Added By Bartosz Gajewski - Payment methods translated to PL*/
+/*Added By B - Payment methods translated to PL*/
 
 .woocommerce-checkout-payment:lang(pl) h2{
 	visibility: hidden;
@@ -1167,7 +1162,7 @@ display:none;
 	left: 0;
 	content: "Metody płatności";}
 
-/*Added By Bartosz Gajewski - Login and Sign In buttons fixed - PL*/
+/*Added By B - Login and Sign In buttons fixed - PL*/
 
 @media (min-width: 600px){
 .page-id-16883 #customer_login [type="submit"]{
@@ -1188,10 +1183,10 @@ margin-left: 215px;}
         margin-top: 10px;
 }
 
-/*Added By Bartosz Gajewski - Change main product image background to white*/
+/*Added By B - Change main product image background to white*/
 .woocommerce-product-gallery__image img { background-color: #FFFFFF !important;}
 
-/*Added By Bartosz Gajewski - zoomed product image display changed to white overlay*/
+/*Added By B - zoomed product image display changed to white overlay*/
 .pp_overlay { background-color: #FFFFFF !important;}
 .pp_overlay {opacity: .9!important;}
 .pp_next:after {color: #000 !important;}
@@ -1202,7 +1197,7 @@ margin-left: 215px;}
 .currentTextHolder {color: #000 !important;}
 #pp_full_res {background-color: #FFF !important;}
 
-/*Added By Bartosz Gajewski - Language switch fixed*/
+/*Added By B - Language switch fixed*/
 .wpml-ls-flag {box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);}
 .wpml-ls-display {color: #000;}
 
@@ -1220,7 +1215,7 @@ margin-left: 215px;}
 
 
 
-/*Added by Bartosz Gajewski - adjusted category display*/
+/*Added by B - adjusted category display*/
 .widget.woocommerce.widget_product_categories h5 {display: none;}
 .woocommerce.widget_product_categories h5 {display: none;}
 .woocommerce.widget_product_categories li {font-size:15px;}
@@ -1236,10 +1231,10 @@ margin-left: 215px;}
 
 @media only screen and (max-width: 600px) {.woocommerce-page .content .container .column1 {display: none;}}
 
-/*Added by Bartosz Gajewski - mobile menu colors changed */
+/*Added by B - mobile menu colors changed */
 .mobile_menu a {color:black!important;}
 
-/*Added by Bartosz Gajewski - Body product categories in left sidebar colored*/
+/*Added by B - Body product categories in left sidebar colored*/
 /**********En**********/
 .woocommerce.widget_product_categories .cat-item-326 a {color: #F4E4B3!important;}
 .woocommerce.widget_product_categories .cat-item-174 a {color: #FC6C12!important;}
@@ -1252,7 +1247,7 @@ margin-left: 215px;}
 .woocommerce.widget_product_categories .cat-item-213 a {color: #B41CAB!important;}
 .woocommerce.widget_product_categories .cat-item-203 a {color: #03B9B6!important;}
 
-/*Added by Bartosz Gajewski - Payment methods fixed*/
+/*Added by B - Payment methods fixed*/
 
 .woocommerce-checkout-payment label{
   text-transform: uppercase;
@@ -1305,13 +1300,13 @@ input:checked + .payment_fakeradio::after{
     border-bottom: 1px solid #000000;
 }
 
-/*Added by Bartosz Gajewski - Delated password from form in checkout page*/
+/*Added by B - Deleted password from form in checkout page*/
 
 #woocommerce-account-fields.woocommerce-account-fields{
   display:none;
 }
 
-/*Added by Bartosz Gajewski - Fixed display of payment methods */
+/*Added by B - Fixed display of payment methods */
 .wc_payment_method.payment_method_Dotpay_blik img{
   margin-bottom: 2px!important;
 }
@@ -1337,7 +1332,7 @@ input:checked + .payment_fakeradio::after{
   .payment_method_paypal a{display: none;}
 }
 
-/*Added by Bartosz Gajewski - Fixed display of checkout login button and lost password text*/
+/*Added by B - Fixed display of checkout login button and lost password text*/
 
 .woocommerce input[type=submit]{
     border: 0px;
@@ -1351,7 +1346,7 @@ input:checked + .payment_fakeradio::after{
 
 
 
-/*Added by Bartosz Gajewski - Fixed display of "accept privacy policy" in registration form (Only Desktop) */
+/*Added by B - Fixed display of "accept privacy policy" in registration form (Only Desktop) */
 
 label[for=privacy-policy-consent]{
   text-transform: uppercase;
@@ -1378,7 +1373,7 @@ label[for=privacy-policy-consent] a:lang(en):before{
   margin-left: -200px
 }
 
-/*Added by Bartosz Gajewski - order note display fixed */
+/*Added by B - order note display fixed */
 .x5review__footer .fee{
   display: none;
 }
@@ -1394,7 +1389,7 @@ label[for=privacy-policy-consent] a:lang(en):before{
 }
 
 
-/*Added by Bartosz Gajewski - Tweak to my account address changes PL*/
+/*Added by B - Tweak to my account address changes PL*/
 .page-id-16883 .woocommerce-MyAccount-content input {
     width: auto!important;
     border-radius:0px!important;
@@ -1437,7 +1432,7 @@ label[for=privacy-policy-consent] a:lang(en):before{
     @include respond-to(s) {align-items: flex-start;}}
 
 
-/*Added by Bartosz Gajewski - fixed display of MyAccount buttons*/
+/*Added by B - fixed display of MyAccount buttons*/
 .page-id-16883 .woocommerce-MyAccount-content button{
   float: left!important;
 }
@@ -1465,7 +1460,7 @@ label[for=privacy-policy-consent] a:lang(en):before{
 }
 
 
-/*Added by Bartosz Gajewski - fixed display of GDPR plugin*/
+/*Added by B - fixed display of GDPR plugin*/
 .gdpr *{
   font-family:verlag-light!important;
   font-weight: 400!important;
@@ -1577,7 +1572,7 @@ label[for=privacy-policy-consent] a:lang(en):before{
 .gdpr-agreement {background-color:white!important;}
 
 
-/*Added by Bartosz Gajewski - fixed display Personal Data Menagement Tab in My Account Menu*/
+/*Added by B - fixed display Personal Data Menagement Tab in My Account Menu*/
 .woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--my-custom-endpoint a:lang(pl){
   visibility: hidden;
 }
@@ -1632,20 +1627,20 @@ label[for=privacy-policy-consent] a:lang(en):before{
 .woocommerce-MyAccount-content button:lang(pl):hover:before{
   border-color: #00a2ab!important;
 }
-/*Added by Bartosz Gajewski - fixed display of quantity and add to bag button in 1200 - 1001px*/
+/*Added by B - fixed display of quantity and add to bag button in 1200 - 1001px*/
 @media screen and (max-width: 1200px) and (min-width: 1001px){.summary.entry-summary .cart{
 float: left;
 padding-left: 5px;}
 }
-/*Added by Bartosz Gajewski - fixed mobile menu display - erased Alba1913*/
+/*Added by B - fixed mobile menu display - erased Alba1913*/
 #mobile-menu-item-17661{
   display: none;
 }
-/*Added by Bartosz Gajewski - mobile - change language text fixed*/
+/*Added by B - mobile - change language text fixed*/
 .wpml-ls-statics-footer.wpml-ls.wpml-ls-touch-device.wpml-ls-legacy-list-horizontal{
   text-transform: uppercase;
 }
-/*Added by Bartosz Gajewski - mobile menu display fixed*/
+/*Added by B - mobile menu display fixed*/
 .mobile_menu ul li h3{
   text-transform: uppercase !important;
   font-size: 14px !important;
@@ -1654,15 +1649,15 @@ nav.mobile_menu ul li ul li{
   margin: 0px;
 }
 
-/*Added by Bartosz Gajewski - single image description text justified*/
+/*Added by B - single image description text justified*/
 .single-product .q_tabs.horizontal.center .tabs-container .tab-content p {
     text-align: justify !important;}
 
-/*Added by Bartosz Gajewski - fixed display of phone number in contact form */
+/*Added by B - fixed display of phone number in contact form */
 .wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validates-as-number{
   font-family: verdana!important;
 }
-/*Added by Bartosz Gajewski - Local pickup display fixed */
+/*Added by B - Local pickup display fixed */
 #shipping_option{
     max-width: 150px;
     border-top: 0px !important;
@@ -1677,7 +1672,7 @@ nav.mobile_menu ul li ul li{
     border-radius: 0px;
     float: right;
 }
-/*Added by Bartosz Gajewski - store notice display adjustments */
+/*Added by B - store notice display adjustments */
 .woocommerce-store-notice.demo_store{
   background-color: white;
   font-family: roboto!important;
@@ -1685,7 +1680,7 @@ nav.mobile_menu ul li ul li{
   width: 100%!important;
   margin-left: unset!important;
   text-transform:uppercase;}
-/*Added by Bartosz Gajewski - My Account display adjustments*/
+/*Added by B - My Account display adjustments*/
 .woocommerce-message.woocommerce-message--info.woocommerce-Message.woocommerce-Message--info.woocommerce-info{
   color:black;
   background-color: white!important;
@@ -1701,16 +1696,16 @@ nav.mobile_menu ul li ul li{
   padding-left:23px!important;
 }
 
-/*Added by Bartosz Gajewski - Blog title display fixed on mobile*/
+/*Added by B - Blog title display fixed on mobile*/
 .blog-top .widget_recent_entries ul li{
   width:100%!important;
 }
-/*Added by Bartosz Gajewski - Order notes display fixed*/
+/*Added by B - Order notes display fixed*/
 #wc_checkout_add_ons_5{
   width: 96%;
 }
 
-/*Added by Bartosz Gajewski - fixed Acceptance in Contact Forms */
+/*Added by B - fixed Acceptance in Contact Forms */
 #personal-data-acceptance-form label{
   display: block;
 }
@@ -1753,7 +1748,7 @@ nav.mobile_menu ul li ul li{
   -moz-appearance: checkbox;
    appearance: checkbox;
 }
-/*Added by Bartosz Gajewski - fixed display of Alba1913 motto
+/*Added by B - fixed display of Alba1913 motto
 .textwidget.custom-html-widget h1{
   font-weight: 400;
 }*/
@@ -1767,7 +1762,7 @@ nav.mobile_menu ul li ul li{
 .textwidget.custom-html-widget .healthyisbeautiful:lang(pl){
   margin-top: -10px;
 }
-/*Added by Bartosz Gajewski - fixed display of privacy policy in Contact Forms */
+/*Added by B - fixed display of privacy policy in Contact Forms */
 .wpb_text_column.wpb_content_element.contact-consent-privacy-policy p{
   clear: both;
 }
@@ -1776,7 +1771,7 @@ nav.mobile_menu ul li ul li{
   font-weight: 200!important;
   line-height: 14px;
 }
-/*Added by Bartosz Gajewski - fixed display of h1 on main page */
+/*Added by B - fixed display of h1 on main page */
 .wpb_text_column.wpb_content_element.instagram-alba1913-h1 a:hover{
  color: #0bb1c1 !important;
 }
@@ -1794,7 +1789,7 @@ visibility: hidden;
 .form-row.form-row-wide.create-account .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox #mailchimp_woocommerce_newsletter{
   width: 50px!important;
 }
-/*Added by Bartosz Gajewski - aligned text in few pages */
+/*Added by B - aligned text in few pages */
 .page-id-17091 .about-post p {
     text-align: justify;
 }
@@ -1813,7 +1808,7 @@ visibility: hidden;
  text-align:justify;
 }
 
-/*Added by Bartosz Gajewski - Galenic Hand Cream options fixed */
+/*Added by B - Galenic Hand Cream options fixed */
 .postid-517.single-product .summary.entry-summary .cart{
   display: inline-block;
   float: left!important;
@@ -1904,7 +1899,7 @@ visibility: hidden;
 .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled{
   margin-left: 60px;
 }
-/*Added by Bartosz Gajewski - menu active object bolded */
+/*Added by B - menu active object bolded */
 nav.main_menu ul li.active a {
     color: black!important;
     font-weight: 1000;
@@ -1917,11 +1912,11 @@ nav.main_menu ul li.active a {
   content: "We protect your personal information with the utmost care. We encourage you to read our updated Privacy Policy.";
   visibility:visible!important;
 }
-/*Added by Bartosz Gajewski - footer left menu display fixed*/
+/*Added by B - footer left menu display fixed*/
 #nav_menu-4.widget.widget_nav_menu{
       margin-top: -30px;
 }
-/*Added by Bartosz Gajewski - top bar display fixed
+/*Added by B - top bar display fixed
 .logo_wrapper .q_logo a{
   height: 108px!important;
 }*/
@@ -1932,13 +1927,13 @@ nav.main_menu ul li.active a {
 .header_top.clearfix .container .container_inner.clearfix .right{
   margin-top: -12px;
 }
-/*  commented by kuba rychlicki
+/*  commented by k
 @media(min-width: 1000px){
 .header_top_bottom_holder .header_bottom.clearfix{
   height: 194px!important;}
 }*/
 @media(min-width: 1000px){
-/* added by kuba rychlicki - temporary too be checked
+/* added by k - temporary too be checked
 .header_top_bottom_holder .header_bottom.clearfix{
   height: 194px!important;}*/
 .header_top_bottom_holder .header_bottom.clearfix {
@@ -1956,7 +1951,7 @@ header.centered_logo.sticky .q_logo img{
 /*.logo_wrapper{
   margin-top: 25px!important;}
 }*/
-/*Added by Bartosz Gajewski - contact form display fixed*/
+/*Added by B - contact form display fixed*/
 .custom-form form textarea[name="textarea-127"]{
   border: none!important;
   height: 20px;
@@ -1964,7 +1959,7 @@ header.centered_logo.sticky .q_logo img{
 .wpcf7-form.cf7_custom_style_1 label{
   display: none;
 }
-/*Added by Bartosz Gajewski - breadcrumbs on cart page erased*/
+/*Added by B - breadcrumbs on cart page erased*/
 .page.page-id-16881 #breadcrumbs{
   visibility:hidden;
 }
@@ -1978,7 +1973,7 @@ header.centered_logo.sticky .q_logo img{
 .term-description{
 padding-bottom: 30px;
 }
-/*Added by Bartosz Gajewski - healthy is beatiful adjusted in english version*/
+/*Added by B - healthy is beatiful adjusted in english version*/
 .widget_text.header-widget.widget_custom_html.header-left-widget .healthyisbeautiful:lang(en){
   font-size:26px;
   top: -3px;
@@ -1986,15 +1981,14 @@ padding-bottom: 30px;
 .widget_text.header-widget.widget_custom_html.header-left-widget .healthy:lang(en){
   font-family: 'verlag-light' !important;
 }
-	
-/*Added by Bartosz Gajewski - sale sign deleted*/
+/*Added by B - sale sign deleted*/
 .single-onsale.onsale-outter{
   display: none;
 }
 .onsale.onsale-outter{
   display: none;
 }
-/*Added by Bartosz Gajewski - contact form submit button display fixed*/
+/*Added by B - contact form submit button display fixed*/
 .wpcf7-form-control.wpcf7-submit{
   margin-top: 10px!important;
 }
@@ -2002,3 +1996,74 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover{
   border-color: black!important;
   color: black!important;
 }
+
+#nav-menu-item-18466 a{
+    font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+#nav-menu-item-18465 a{
+    font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+	color: black!important;
+}
+
+#nav-menu-item-18475 a{
+      font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+
+#nav-menu-item-17088 a{
+      font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+#nav-menu-item-18476 a{
+      font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+#nav-menu-item-18477 > a{
+  color: #FF1629!important;
+}
+#nav-menu-item-18480 a{
+  color: #FF1629!important;
+font-weight: 800!important;}
+
+#nav-menu-item-18478 a{
+	font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+#nav-menu-item-18479 a{
+	font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+
+#nav-menu-item-18483 a{
+	font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+
+#nav-menu-item-18484 a{
+	font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+#nav-menu-item-18487 a{
+	font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+#nav-menu-item-18488 a{
+	font-size: 13px!important;
+    font-family: verlag-light!important;
+    font-weight: 500!important;
+}
+  
+.tagged_as{
+display: none!important;}
